@@ -41,6 +41,7 @@
                             <a class="nav-link" href="#"></a>
                         </li>
                     </ul>
+                    <span class="text-white ml-5"id="date_time"></span>
                 </div>
             </div>
         </nav>
@@ -54,10 +55,10 @@
                         <form>
                             <div class="row">
                                 <div class="col-sm">
-                                    <input type="text" class="form-control" placeholder="First name">
+                                    <input type="text" class="form-control" placeholder="Email">
                                 </div>
                                 <div class="col-sm">
-                                    <input type="text" class="form-control" placeholder="Last name">
+                                    <input type="text" class="form-control" placeholder="Password">
                                 </div>
                                 <button class="btn btn-default btn-xl"id="loginbtn"> <a href="#" target="_blank" >Login</a>
                                 </button>
@@ -68,7 +69,7 @@
             </div>
         </section>
         <header>
-            <div id="carouselExampleIndicators" class="carousel slide mt-relative" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide mt-relative" data-ride="carousel active">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -77,34 +78,24 @@
                 <div class="carousel-inner" role="listbox">
                     <!-- Slide One - Set the background image for this slide in the line below -->
                     <div class="carousel-item active" id="carousel1" style="background-image: url('https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790')">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2 class="display-4">First Slide</h2>
-                            <p class="lead">This is a description for the first slide.</p>
+                        <div class="carousel-caption d-none d-md-none">
+                            
                         </div>
                     </div>
                     <!-- Slide Two - Set the background image for this slide in the line below -->
                     <div class="carousel-item" style="background-image: url('https://d4oz43evw1m6y.cloudfront.net/static/images/2x/free-psd-mockup-for-chocolate-bar-packaging-design-f6.jpg')">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2 class="display-4">Second Slide</h2>
-                            <p class="lead">This is a description for the second slide.</p>
+                        <div class="carousel-caption d-none d-md-none">
+                            
                         </div>
                     </div>
                     <!-- Slide Three - Set the background image for this slide in the line below -->
                     <div class="carousel-item" style="background-image: url('https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790')">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2 class="display-4">Third Slide</h2>
-                            <p class="lead">This is a description for the third slide.</p>
+                        <div class="carousel-caption d-none d-md-none">
+                            
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                
             </div>
         </header>
 
@@ -136,30 +127,30 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="service-box">
-                            <i class="fa fa-4x fa-globe wow bounceIn text-primary" style="visibility: visible; animation-name: bounceIn;"></i>
-                            <h3>This Fucking Template</h3>
-                            <p class="text-muted">Guaranteed to use the same fucking template that every other bootstrap website uses, downloaded straight from The Web™</p>
+                            <i class="fa fa-4x fa-globe wow bounceIn text-primary mb-4" id="glow1"style="visibility: visible; animation-name: bounceIn;"></i>
+                            <h4>My Template</h4>
+                            <p class="text-white">Guaranteed to use the same fucking template that every other bootstrap website uses, downloaded straight from The Web™</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="service-box">
-                            <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
-                            <h3>This Set of Four Icons</h3>
-                            <p class="text-muted">Look at this cool set of four icons describing different things about us! We use four, because it's the default.</p>
+                            <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary mb-4" id="glow1" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                            <h4>This Set of Four Icons</h4>
+                            <p class="text-white">Look at this cool set of four icons describing different things about us! We use four, because it's the default.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="service-box">
-                            <i class="fa fa-4x fa-thumbs-up wow bounceIn text-primary" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;"></i>
-                            <h3>Lots of effort</h3>
-                            <p class="text-muted">We even changed some of the icons! We take the extra effort to make our designs truly original.</p>
+                            <i class="fa fa-4x fa-thumbs-up wow bounceIn text-primary mb-4" id="glow1" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;"></i>
+                            <h4>Lots of effort</h4>
+                            <p class="text-white">We even changed some of the icons! We take the extra effort to make our designs truly original.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="service-box">
-                            <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: bounceIn;"></i>
-                            <h3>Made with Love</h3>
-                            <p class="text-muted">Because nothing says hard work and talent like editing a few lines of text.</p>
+                            <i class="fa fa-4x fa-heart wow bounceIn text-primary mb-4" id="glow1" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: bounceIn;"></i>
+                            <h4>Made with Love</h4>
+                            <p class="text-white">Because nothing says hard work and talent like editing a few lines of text.</p>
                         </div>
                     </div>
                 </div>
@@ -177,10 +168,10 @@
                     <h4>Menu —</h4>
                     <div class="col-md-6">
                         <ul class="pages">
-                            <li><a href="#">Travel</a></li>
-                            <li><a href="#">Nature</a></li>
-                            <li><a href="#">Explores</a></li>
-                            <li><a href="#">Science</a></li>
+                            <li><a href="#">Designs</a></li>
+                            <li><a href="#">Category</a></li>
+                            <li><a href="#">Demo</a></li>
+                            <li><a href="#">Donate</a></li>
                             <li><a href="#">Advice</a></li>
                         </ul>
                     </div>
@@ -221,4 +212,6 @@
     </div>
 
 </body>
+<script src="myscripts.js"></script>
+<script type="text/javascript">window.onload = date_time('date_time');</script>
 </html
