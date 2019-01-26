@@ -1,0 +1,66 @@
+.navbar{
+    background: #102846;
+}
+
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#homelogo{
+       transition: all .5s; 
+}
+
+#cartnoti{/*shopping cart notification badge start*/
+    position: relative;
+    top: -7px;
+    left: -4px;
+    display: inline-block;
+    min-width: 5px;
+    padding: 1px 1px 1px 1px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color:#fff !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+}/*shopping cart notification badge end*/
+
+#carticon{
+    position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left: 5px;
+}
+
+#about {
+    background-color: #102846 !important;
+    color: white;
+}
+.btn-default{
+    border-radius: 50px;
+    width: 200px;
+    color: #102846 !important;
+}
+#test{
+ background-image: url("img_parallax.jpg");
+    /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-control{
+    border-radius: 15px;
+}
