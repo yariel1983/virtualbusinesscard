@@ -56,8 +56,8 @@
     width: 200px;
     color: #102846 !important;
 }
-#test{
- background-image: url("https://www.happysailorprinting.com/wp-content/uploads/2017/09/business-cards-mockup.jpg");
+#carousel1{
+ background-image: url("https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790");
     /* Set a specific height */
   min-height: 500px; 
 
@@ -66,12 +66,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.8;
 }
 .form-control{
     border-radius: 50px;
 }
 #services{
- background-image: url("https://www.happysailorprinting.com/wp-content/uploads/2017/09/business-cards-mockup.jpg");
+ background-image: url("https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790");
     /* Set a specific height */
   min-height: 500px; 
 
@@ -79,7 +80,8 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;   
+  background-size: cover; 
+  opacity: 0.8;  
 }
 .footer-bs {
     background-color: #3c3d41;

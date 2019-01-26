@@ -76,21 +76,21 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <!-- Slide One - Set the background image for this slide in the line below -->
-                    <div class="carousel-item active" id="test" style="background-image: url('https://www.happysailorprinting.com/wp-content/uploads/2017/09/business-cards-mockup.jpg')">
+                    <div class="carousel-item active" id="carousel1" style="background-image: url('https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790')">
                         <div class="carousel-caption d-none d-md-block">
                             <h2 class="display-4">First Slide</h2>
                             <p class="lead">This is a description for the first slide.</p>
                         </div>
                     </div>
                     <!-- Slide Two - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" style="background-image: url('https://sg.fiverrcdn.com/photos/64791514/original/b8fa1a7dda8f61b45dde08648d58d35569230147.jpg?1487305466')">
+                    <div class="carousel-item" style="background-image: url('https://d4oz43evw1m6y.cloudfront.net/static/images/2x/free-psd-mockup-for-chocolate-bar-packaging-design-f6.jpg')">
                         <div class="carousel-caption d-none d-md-block">
                             <h2 class="display-4">Second Slide</h2>
                             <p class="lead">This is a description for the second slide.</p>
                         </div>
                     </div>
                     <!-- Slide Three - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" style="background-image: url('https://4.imimg.com/data4/RW/CN/IMOB-38545968/img-20180208-wa0006-jpg-500x500.jpg')">
+                    <div class="carousel-item" style="background-image: url('https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790')">
                         <div class="carousel-caption d-none d-md-block">
                             <h2 class="display-4">Third Slide</h2>
                             <p class="lead">This is a description for the third slide.</p>
@@ -127,7 +127,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">So Fucking Creative</h2>
+                        <h2 class="section-heading mt-5">Services</h2>
                         <hr class="primary">
                     </div>
                 </div>
@@ -166,12 +166,12 @@
             </div>
         </section>
         <!----------- Footer ------------>
-        <footer class="footer-bs" id="test">
+        <footer class="footer-bs" id="carousel1">
             <div class="row">
                 <div class="col-md-3 footer-brand animated fadeInLeft">
-                    <h2>Logo</h2>
+                    <span><i class="fas fa-cloud text-white fa-2x mb-2 mr-2" id="homelogo"></i>Virtual Business Card</span>
                     <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.</p>
-                    <p>© 2014 BS3 UI Kit, All rights reserved</p>
+                    <p>© 2019 Yariel Dominguez UI, All rights reserved</p>
                 </div>
                 <div class="col-md-4 footer-nav animated fadeInUp">
                     <h4>Menu —</h4>
@@ -196,10 +196,10 @@
                 <div class="col-md-2 footer-social animated fadeInDown">
                     <h4>Follow Us</h4>
                     <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">RSS</a></li>
+                        <li><a href="#"><span class="fab fa-facebook fa-2x"></span></a></li>
+                        <li><a href="#"><span class="fab fa-instagram fa-2x"></span></a></li>
+                        <li><a href="#"><span class="fab fa-twitter fa-2x"></span></a></li>
+                        <li><a href="#"><span class="fab fa-linkedin fa-2x"></span></a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 footer-ns animated fadeInRight">
@@ -209,7 +209,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search for...">
                         <span class="input-group-btn">
-                            <button class="btn btn-default" type="button"><i class="far fa-envelope"></i></span></button>
+                            <button class="btn btn-default" type="button"><i class="fas fa-search"></i></span></button>
                         </span>
                     </div><!-- /input-group -->
                     </p>
