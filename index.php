@@ -14,34 +14,34 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container" id="homelogo">
-                <span><i class="fas fa-cloud text-white fa-2x mr-2" id="homelogo"></i></span>
-                <a class="navbar-brand text-white"  href="#">Virtual Business Card</a>
+                <span><i class="fas fa-cloud text-white fa-2x mr-2"></i></span>
+                <a class="navbar-brand text-white"  href="index.php" id="homelogo">Virtual Business Card</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse d-flex" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home
+                            <a class="nav-link" href="index.php">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="about.php">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="services.php">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <span><i class="fas fa-shopping-cart text-white" id="carticon"></i></span>
-                            <span class="badge badge-pill badge-danger text-danger" id="cartnoti">5</span>
-                            <a class="nav-link" href="#"></a>
+                            <a class="nav-link" href="cart.php"><span><i class="fas fa-shopping-cart text-white" id="carticon"></i></span>
+                                <span class="badge badge-pill badge-danger text-danger" id="cartnoti">0</span>
+                            </a>
                         </li>
                     </ul>
-                    <span class="text-white ml-5"id="date_time"></span>
+                    
                 </div>
             </div>
         </nav>
@@ -79,23 +79,23 @@
                     <!-- Slide One - Set the background image for this slide in the line below -->
                     <div class="carousel-item active" id="carousel1" style="background-image: url('https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790')">
                         <div class="carousel-caption d-none d-md-none">
-                            
+
                         </div>
                     </div>
                     <!-- Slide Two - Set the background image for this slide in the line below -->
                     <div class="carousel-item" style="background-image: url('https://d4oz43evw1m6y.cloudfront.net/static/images/2x/free-psd-mockup-for-chocolate-bar-packaging-design-f6.jpg')">
                         <div class="carousel-caption d-none d-md-none">
-                            
+
                         </div>
                     </div>
                     <!-- Slide Three - Set the background image for this slide in the line below -->
                     <div class="carousel-item" style="background-image: url('https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790')">
                         <div class="carousel-caption d-none d-md-none">
-                            
+
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </header>
 
@@ -160,7 +160,7 @@
         <footer class="footer-bs" id="carousel1">
             <div class="row">
                 <div class="col-md-3 footer-brand animated fadeInLeft">
-                    <span><i class="fas fa-cloud text-white fa-2x mb-2 mr-2" id="homelogo"></i>Virtual Business Card</span>
+                    <span><i class="fas fa-cloud text-white fa-2x mb-2 mr-2"></i>Virtual Business Card</span>
                     <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.</p>
                     <p>© 2019 Yariel Dominguez UI, All rights reserved</p>
                 </div>
@@ -198,9 +198,9 @@
                     <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
                     <p>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for...">
+                        <input type="text" class="form-control" placeholder="Search">
                         <span class="input-group-btn">
-                            <button class="btn btn-default" type="button"><i class="fas fa-search"></i></span></button>
+                            <button class="btn btn-default ml-0" type="button" id="footerbtn"><i class="fas fa-search"></i></span></button>
                         </span>
                     </div><!-- /input-group -->
                     </p>
