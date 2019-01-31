@@ -13,8 +13,8 @@
     <body>
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container" id="homelogo">
-                <span><i class="fas fa-cloud text-white fa-2x mr-2"></i></span>
+            <div class="container-fluid" id="homelogo">
+                <span><i class="fas fa-cloud text-white fa-2x mr-2" href="index.php"></i></span>
                 <a class="navbar-brand text-white"  href="index.php" id="homelogo">Virtual Business Card</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -41,17 +41,29 @@
                             </a>
                         </li>
                     </ul>
-                    
+
                 </div>
             </div>
         </nav>
+        <div class="container-fluid mt-5 text-center fa-4x">
+            <p>Your shopping Cart is Empty</p>
+            <span><i class="fas fa-hand-point-up fa-2x" href="index.php"></i></span>
+            <div class="row">
+                <div class="col-md-4"></div>
 
-        
+                <div class="col-md-4">
+                    <a class="nav-link" href="index.php"><button class="btn btn-info mb-0" id="cartbtn">Return to home</button></a>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+
+
+
+
+
+
        
-        
-        
-       
-        <section style="text-align:center; margin:10px auto;"><p>Designed by <a href="http://enfoplus.net">Yariel Dominguez</a></p></section>
 
     </div>
 
