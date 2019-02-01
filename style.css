@@ -183,10 +183,12 @@
 /*services Css*/
 body{
 		background: linear-gradient(90deg, #003f9e6b  50%,  #e8e8e8 50%);
+                
 	}
 	.portfolio{
 		padding:6%;
 		text-align:center;
+               
                 
 	}
 	.heading{

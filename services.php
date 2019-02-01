@@ -83,12 +83,12 @@
                                         <input type="text" class="form-control" placeholder="Company Name">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control" placeholder="Name">
+                                        <input type="text" class="form-control" placeholder="First Name">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control" placeholder="LastName">
+                                        <input type="text" class="form-control" placeholder="Last Name">
                                     </div>
-                                    <div class="col-sm-6 mt-5">
+                                    <div class="col-sm-12 mt-5">
                                         <input type="text" class="form-control" placeholder="Email">
                                     </div>
                                     <div class="col-sm-12 mt-2">
@@ -118,6 +118,21 @@
                                     </div>
                                 </div>
                             </div>
-
+                            
+                            <footer>
+                            <div class="container mt-5">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                      <button class="btn btn-success mr-5">&uarr; Upload image</button>  
+                                    </div>
+                                    <div class="col-sm-4">
+                                       <button class="btn btn-danger">Reset</button> 
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <button class="btn btn-primary">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                            </footer>    
     </body>       
 </html
