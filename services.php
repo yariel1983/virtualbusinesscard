@@ -39,7 +39,7 @@
                             <a class="nav-link" href="about.php">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="services.php">Services</a>
+                            <a class="nav-link" href="services.php">Designs</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.php">Contact</a>
@@ -69,52 +69,55 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="bio-image">
-                                    <img src="http://placehold.it/250x250" class="img-responsive" alt="a" />
+                                    <img src="http://placehold.it/350x400" class="img-responsive" alt="a" />
                                 </div>			
                             </div>
                         </div>	
                     </div>
                     <div class="col-md-6">
-                        <div class="bio-content text-justify mb-5">
-                            <h3>Virtual Business Card</h3>
-                            <h6>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</h6> 
-
-                            <footer>
-                                <div class="container-fluid mt-5">
-                                    <!-- Grid row-->
-                                    <div class="container-fluid">
-
-                                        <!-- Grid column -->
-                                        <div class="col-md-12 py-5">
-                                            <div class="flex-center">
-
-                                                <!-- Facebook -->
-                                                <a class="fb-ic">
-                                                    <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mb-md-5 mr-3 fa-2x"> </i>
-                                                </a>
-                                                <!-- Twitter -->
-                                                <a class="tw-ic">
-                                                    <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                                                </a>
-                                                <!-- Google +-->
-                                                <a class="gplus-ic">
-                                                    <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                                                </a>
-                                                
-                                            </div>
-                                        </div>
-                                        <!-- Grid column -->
-
+                        <div class="bio-content text-center mb-5">
+                            <span><i class="fas fa-cloud text-primary fa-2x mr-2" href="index.php"></i>Virtual Business Card</span>
+                            <form>
+                                <div class="row mt-5">
+                                    <div class="col-sm-12 mb-3">
+                                        <input type="text" class="form-control" placeholder="Company Name">
                                     </div>
-                                    <!-- Grid row-->
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control" placeholder="LastName">
+                                    </div>
+                                    <div class="col-sm-6 mt-5">
+                                        <input type="text" class="form-control" placeholder="Email">
+                                    </div>
+                                    <div class="col-sm-12 mt-2">
+                                        <input type="text" class="form-control" placeholder="Phone">
+                                    </div>
+                                    <div class="col-sm-12 mt-2">
+                                        <input type="text" class="form-control" placeholder="fax">
+                                    </div>
                                 </div>
-                        </div>
-                    </div>	
-                </div>
-            </div>
-        </footer>    
+                            </form>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <a class="fb-ic">
+                                            <i class="fab fa-facebook-f fa-lg white-text fa-2x mt-5"> </i>
+                                        </a>    
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a class="tw-ic">
+                                            <i class="fab fa-twitter fa-lg white-text fa-2x mt-5"> </i>
+                                        </a>    
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a class="gplus-ic">
+                                            <i class="fab fa-instagram fa-lg white-text fa-2x mt-5"> </i>
+                                        </a>   
+                                    </div>
+                                </div>
+                            </div>
 
-
-
-</body>       
+    </body>       
 </html
