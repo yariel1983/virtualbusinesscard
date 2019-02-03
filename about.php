@@ -1,13 +1,13 @@
 <!DOCTYPE  html>
 <html>>
     <head>
-        <title>Virtual Business </title>
+        <title>Virtual Business Card</title>
         <!-- CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">        
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
+    </head>
     <body>
          <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -94,8 +94,8 @@
                     </div>
                     <div class="col-md-6">
                         <ul class="list">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contacts</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                             <li><a href="#">Terms & Condition</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                         </ul>
@@ -126,7 +126,7 @@
         </footer>
         <section style="text-align:center; margin:10px auto;"><p>Designed by <a href="http://enfoplus.net">Yariel Dominguez Freelance Frontend Web Developer</a></p></section>
 
-    </div>
+    
 
 </body>
 <!-- Jquery -->

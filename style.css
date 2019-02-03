@@ -175,16 +175,11 @@
     background-size: cover;
     opacity: 0.8;
 }
-#trainingvideoslide {/*responsive training video welcome slide start*/
-    width: 100%;
-    height: auto;
-}/*responsive training video welcome slide end*/
+
 
 /*services Css*/
-body{
-    background: linear-gradient(90deg, #003f9e6b  50%,  #e8e8e8 50%);
 
-}
+
 .portfolio{
     padding:6%;
     text-align:center;
@@ -197,7 +192,7 @@ body{
     text-align: left;
     box-shadow: 0px 0px 4px 0px #545b62;
     margin-bottom: 50px;
-    border-radius: 25px; 
+    border-radius: 50px 0px 50px 0px; 
 }
 .heading img{
     width: 10%;
@@ -217,9 +212,9 @@ body{
     text-align:center;
 
 }
-/*.bio-image img{
-        border-radius:50%;
-}*/
+.bio-image img{
+        border-radius: 20px 20px 20px 20px;
+}
 .bio-content{
     text-align:left;
 
@@ -232,3 +227,17 @@ body{
     width: 285px;
 
 }
+
+#designback{/*Register page Background start*/
+     background-image: url("https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790");
+    /* Set a specific height */
+    min-height: 500px; 
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}/*Register page Background end*/

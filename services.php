@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="style.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">        
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </head>
     <body>
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -38,13 +39,13 @@
                 </ul>
             </div>
         </nav>
-
-        <div class="container portfolio mt-5">
+        <!--Page Content-->
+        <div class="container portfolio mb-3" id="designback">
             <div class="row">
-                <div class="col-md-12">
-                    <!--<div class="heading">				
+                <div class="col-sm-12">
+                    <div class="heading">				
                         <img src="https://image.ibb.co/cbCMvA/logo.png" />
-                    </div>-->
+                    </div>
                 </div>	
             </div>
             <div class="bio-info">
@@ -107,17 +108,17 @@
                                 <div class="container mt-5">
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <button class="btn btn-success mr-5">&uarr; Upload image</button>  
+                                            <button class="btn btn-success mr-5"><i class="fas fa-cloud-upload-alt"></i></button>  
                                         </div>
                                         <div class="col-sm-4">
                                             <button class="btn btn-danger">Reset</button> 
                                         </div>
                                         <div class="col-sm-2">
-                                            <button class="btn btn-primary">Save</button>
+                                            <button class="btn btn-primary"><span><i class="fas fa-shopping-cart text-white"></i></span></button>
                                         </div>
                                     </div>
                                 </div>
-                            </footer>    
+                            </footer>   
                             </body>
                             <!-- Jquery -->
                             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
