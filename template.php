@@ -31,16 +31,16 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <!-- Slide One - Set the background image for this slide in the line below -->
-            <div class="carousel-item active" id="carousel1" style="background-image: url('https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790')">
+            <div class="carousel-item active" id="carousel1" style="background-image:  url('assets/images/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg')">
                 <div class="carousel-caption d-none d-md-none"></div>
             </div>
             <!-- Slide Two - Set the background image for this slide in the line below -->
-            <div class="carousel-item" style="background-image: url('https://d4oz43evw1m6y.cloudfront.net/static/images/2x/free-psd-mockup-for-chocolate-bar-packaging-design-f6.jpg')">
+            <div class="carousel-item" style="background-image: url('assets/images/free-psd-mockup-for-chocolate-bar-packaging-design-f6.jpg')">
                 <div class="carousel-caption d-none d-md-none">
                 </div>
             </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
-            <div class="carousel-item" style="background-image: url('https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790')">
+            <div class="carousel-item" style="background-image: url('assets/images/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg')">
                 <div class="carousel-caption d-none d-md-none">
                 </div>
             </div>
