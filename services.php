@@ -2,7 +2,7 @@
 <!--Page Content-->
 <div class="container-fluid portfolio mb-3" id="designback">&nbsp;
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-sm-12">
             <div class="heading">				
                 <img src="https://image.ibb.co/cbCMvA/logo.png" />
             </div>
@@ -10,36 +10,36 @@
     </div>
     <div class="bio-info">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-6">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                         <div class="bio-image">
                             <img src="http://placehold.it/350x400" class="img-responsive" alt="a" />
                         </div>			
                     </div>
                 </div>	
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-6">
                 <div class="bio-content text-center mb-5">
                     <span><i class="fas fa-cloud text-primary fa-2x mr-2" href="index.php"></i>Virtual Business Card</span>
                     <form>
                         <div class="row mt-5">
-                            <div class="col-md-12 mb-3">
+                            <div class="col-sm-12 mb-3">
                                 <input type="text" class="form-control" placeholder="Company Name">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <input type="text" class="form-control" placeholder="First Name">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <input type="text" class="form-control" placeholder="Last Name">
                             </div>
-                            <div class="col-md-12 mt-5">
+                            <div class="col-sm-12 mt-5">
                                 <input type="text" class="form-control" placeholder="Email">
                             </div>
-                            <div class="col-md-12 mt-2">
+                            <div class="col-sm-12 mt-2">
                                 <input type="text" class="form-control" placeholder="Phone">
                             </div>
-                            <div class="col-md-12 mt-2">
+                            <div class="col-sm-12 mt-2">
                                 <input type="text" class="form-control" placeholder="fax">
                             </div>
                         </div>
