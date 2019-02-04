@@ -1,0 +1,243 @@
+
+/*landing page CSS*/
+.navbar{
+    background: #102846;
+}
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*.fas fa-cloud text-white fa-2x mr-2{
+    font-size: 10px;
+}
+/*#homelogo:hover{
+       font-size: 20px; 
+}*/
+
+#cartnoti{/*shopping cart notification badge start*/
+    position: relative;
+    top: -9px;
+    left: -4px;
+    display: inline-block;
+    min-width: 12px;
+    padding: 2px 2px 2px 2px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+}/*shopping cart notification badge end*/
+
+#carticon{
+    position: relative;
+    /* Adjust these values accordingly */
+    top: 0px;
+    left: 5px;
+    bottom:4px;
+}
+
+#about {
+    background-color: #102846 !important;
+    color: white;
+}
+#loginbtn{
+    border-radius: 50px;
+    width: 100px;
+    color: #102846 !important;  
+}
+#registerbtn{
+    border-radius: 50px;
+    width: 200px;
+    color: #102846 !important;
+}
+#carousel1{
+    background-image: url("https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790");
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+.form-control{
+    border-radius: 50px;
+}
+#services{
+    background-image: url("https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790");
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    opacity: 0.8;  
+    color: white;
+}
+
+.fa fa-4x{
+    font-size:100px;
+}
+#glow1:hover {
+    font-size:105px;
+    color: white !important;
+}
+
+
+.footer-bs {
+    background-color: #3c3d41;
+    padding: 60px 40px;
+    color: rgba(255,255,255,1.00);
+    margin-bottom: 20px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 6px;
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-nav h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+.footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom:10px;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+@media (min-width: 768px) {
+    .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+}
+#footerbtn{
+    border-radius:0px 25px 25px 0px !important;
+}
+.carousel-indicators li{
+    display: none !important;
+}
+
+/*Contact page CSS*/
+
+#aboutsection .card:hover i,#aboutsection .card:hover h4{
+    color: blueviolet !important;
+    opacity: 0.7;
+
+}
+#aboutsection{
+    background-image: url("https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790");
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+
+/*services Css*/
+
+
+.portfolio{
+    padding:6%;
+    text-align:center;
+
+
+}
+.heading{
+    background: #fff;
+    padding: 1%;
+    text-align: left;
+    box-shadow: 0px 0px 4px 0px #545b62;
+    margin-bottom: 50px;
+    border-radius: 50px 0px 50px 0px; 
+}
+.heading img{
+    width: 10%;
+}
+.bio-info{
+    padding: 5%;
+    background:#fff;
+    box-shadow: 10px 10px 20px #000000;
+    border-radius: 25px;
+    text-shadow: 10px 10px 20px #000000;
+}
+.name{
+    font-family: 'VT323', monospace;
+    font-weight:600;
+}
+.bio-image{
+    text-align:center;
+
+}
+.bio-image img{
+        border-radius: 20px 20px 20px 20px;
+}
+.bio-content{
+    text-align:left;
+
+}
+.bio-content p{
+    font-weight:600;
+    font-size:30px;
+}
+#myprofile{
+    width: 285px;
+
+}
+
+#designback{/*Register page Background start*/
+     background-image: url("https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790");
+    /* Set a specific height */
+    min-height: 500px; 
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}/*Register page Background end*/
