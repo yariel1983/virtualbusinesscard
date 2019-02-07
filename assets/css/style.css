@@ -110,6 +110,9 @@ p {
     color: white !important;
 }
 
+.hr{
+    color: black !important;
+}
 .footer{
     color: black;
 }
@@ -324,3 +327,6 @@ input:focus{
     border: 0 !important;
 }
 /*Login page CSS*/
+button.navbar-toggler.collapsed{
+    border-style: dotted !important;
+}
