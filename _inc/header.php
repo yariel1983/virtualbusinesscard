@@ -11,7 +11,7 @@
     </head>
     <body>
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark">
             <a class="navbar-brand text-dark" href="index.php"><span><i class="fas fa-cloud text-primary fa-2x mr-2" href="index.php"></i></span>Virtual Business Card</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,9 +29,9 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="services.php">Design</a>
                     </li>
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                         <a class="nav-link text-dark" href="contact.php">Contact</a>
-                    </li>
+                    </li>-->
                     <li class="nav-item text-dark">
                         <a class="nav-link text-dark" href="cart.php"><span><i class="fas fa-shopping-cart text-dark" id="carticon"></i></span>
                             <span class="badge badge-pill badge-danger text-danger" id="cartnoti">0</span>
