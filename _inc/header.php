@@ -27,7 +27,7 @@
                         <a class="nav-link text-dark" href="about.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="services.php">Design</a>
+                        <a class="nav-link text-dark" href="services.php">Card Design</a>
                     </li>
                     <!--<li class="nav-item">
                         <a class="nav-link text-dark" href="contact.php">Contact</a>
