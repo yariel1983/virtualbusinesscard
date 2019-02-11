@@ -103,19 +103,24 @@
 </div> 
 
 <!--Login-modal-->
-<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-    <div class="modal-dialog">
+<div class="modal fade" id="login-modal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog" role="document">
         <div class="loginmodal-container text-dark" id="modalbg">
-            <span><i class="fas fa-cloud text-primary fa-2x mr-2 mt-0"></i></span>Virtual Business Card</a>
+            <span><i class="fas fa-cloud text-primary fa-2x mr-2 mt-0 mb-2"></i></span>Virtual Business Card</a><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4>Login to Your Account</h4><br>
             <form>
-                <input type="text" name="user" placeholder="Username">
-                <input type="password" name="pass" placeholder="Password">
-                <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+                <input class="login-modal-form" type="text" placeholder="Username" >
+                <input class="login-modal-form" type="text" placeholder="Password">                
             </form>
-
-            <div class="login-help">
-                <a href="#">Register</a> - <a href="#">Forgot Password</a>
+            <div class="login-help mt-3">
+                <small><a href="#">Forgot Password</a></small>
+                
+            </div>
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6 text-right">
+                    <button class="btn btn-primary mt-3 mb-text-right" id="loginmodalbtn" href="#">Login</button>
+                </div>
             </div>
         </div>
     </div>
@@ -125,21 +130,24 @@
 <div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
     <div class="modal-dialog">
         <div class="loginmodal-container text-dark" id="modalbg">
-            <span><i class="fas fa-cloud text-primary fa-2x mr-2 mt-0"></i></span>Virtual Business Card</a>
+            <span><i class="fas fa-cloud text-primary fa-2x mr-2 mt-0"></i></span>Virtual Business Card</a><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4>Login to Your Account</h4><br>
             <form>
-                <input type="text" name="Company Name" placeholder="Company Name">
-                <input type="text" name="First Name" placeholder="First Name">
-                <input type="password" name="Last Name" placeholder="Last Name">
-                <input type="text" name="Email" placeholder="Email">
-                <input type="submit" name="Register" class="login loginmodal-submit" value="Register">
+                <input class="register-modal-form mb-3" type="text" name="Company Name" placeholder="Company Name">
+                <input class="register-modal-form mb-3" type="text" name="First Name" placeholder="First Name">
+                <input class="register-modal-form" type="password" name="Last Name" placeholder="Last Name">
+                <input class="register-modal-form" type="text" name="Email" placeholder="Email">
+                
             </form>
-
-            <div class="login-help">
-                <a href="#">Register</a> - <a href="#">Forgot Password</a>
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6 text-right">
+                    <button class="btn btn-primary mt-3 mb-text-right" id="loginmodalbtn" href="#">Register</button>
+                </div>
             </div>
+
         </div>
     </div>
 </div>
 <!--footer-->
-    <?php include('_inc/footer.php'); ?>
+<?php include('_inc/footer.php'); ?>

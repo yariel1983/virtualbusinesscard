@@ -212,7 +212,7 @@ p {
 }
 
 
-/*------------- Form ---------------*/
+/*------------- Contact Form ---------------*/
 
 .nb-form {
     position: fixed;
@@ -359,6 +359,7 @@ p {
 .modal {
     text-align: center;
     color:white;
+    
 }
 
 @media screen and (min-width: 768px) { 
@@ -372,7 +373,6 @@ p {
 
 .modal-dialog {
     display: inline-block;
-    text-align: left;
     vertical-align: middle;
 }
 
@@ -385,4 +385,20 @@ p {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
     padding: 50px;
     border-radius: 25px;
+}
+
+button, input {
+    overflow: visible;
+    border-radius: 25px; 
+   
+    
+}
+
+#loginmodalbtn{
+    border-radius: 25px;
+}
+
+#modalbtnclose{
+    border-radius: 100px;
+    background: red;
 }
