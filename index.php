@@ -1,106 +1,145 @@
 <?php include('_inc/header.php'); ?>
-<section class="home-banner text-right mt-5" id="about">
-    <div class="container d-flex">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-2 text-center mt-5 mb-5">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
-            </div>
-            <div class="col-md-6 col-md-offset-2 text-center mt-5 mb-5">
-                <form>
-                    <div class="row">
-                        <div class="col-sm">
-                            <input type="text" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="col-sm">
-                            <input type="text" class="form-control" placeholder="Password">
-                        </div>
-                        <button type="button" class="btn btn-light" id="loginbtn">Login</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-<header>
-    <div id="carouselExampleIndicators" class="carousel slide mt-relative" data-ride="carousel active">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <!-- Slide One - Set the background image for this slide in the line below -->
-            <div class="carousel-item active" id="carousel1" style="background-image: url('https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790')">
-                <div class="carousel-caption d-none d-md-none"></div>
-            </div>
-            <!-- Slide Two - Set the background image for this slide in the line below -->
-            <div class="carousel-item" style="background-image: url('https://d4oz43evw1m6y.cloudfront.net/static/images/2x/free-psd-mockup-for-chocolate-bar-packaging-design-f6.jpg')">
-                <div class="carousel-caption d-none d-md-none">
-                </div>
-            </div>
-            <!-- Slide Three - Set the background image for this slide in the line below -->
-            <div class="carousel-item" style="background-image: url('https://sg.fiverrcdn.com/photos/117081528/original/7cd730db549fc3247e0be1b4d35a0eb550945b9b.jpg?1536772790')">
-                <div class="carousel-caption d-none d-md-none">
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
 
-<!-- Page Content Register banner-->       
-<section class="home-banner text-justify" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-lg-offset-2 text-center mt-5 mb-5">
-                <h2 class="section-heading">Want to make an original Business Card yourself?</h2>
-                <hr class="light">
-                <p class="text-faded">Forget that! Who would ever want to put in all of that effort for a website? Just open up your web browser and type "bootstrap template" into your favorite search engine, like Yahoo! or Bing, and you're on your way! There are hundreds of templates to choose from, but go ahead and pick this same exact template from the first result on google, edit a few lines, and you're on your way! No one will notice!</p>
-                <button type="button" class="btn btn-light" id="loginbtn">Register</button>
+<!--Carousel-->
+
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="3000" style="background-image:  url('assets/images/444.png')"></div>
+        <div class="carousel-item" data-interval="3000" style="background-image:  url('assets/images/333.jpg')"></div>
+        <div class="carousel-item" data-interval="3000" style="background-image:  url('assets/images/555.jpg')"></div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+<!--Page Content-->
+
+<div class="container-fluid">
+    <div class="row pt-5 pb-5 home-banner">
+        <div class="col-sm-4">
+            <p class="text-center">
+                <a class="icon-people text-primary" data-toggle="modal" data-target="#login-modal" id="bannericons"></a>
+            </p>
+            <h4 class="text-center">
+                Login
+            </h4>
+
+        </div>
+        <div class="col-sm-4">
+            <p class="text-center">
+                <a class="icon-user text-primary" data-toggle="modal" data-target="#register-modal" id="bannericons"></a>
+            </p>
+            <h4 class="text-center">
+                Register
+            </h4>
+
+        </div>
+        <div class="col-sm-4">
+            <p class="text-center">
+                <a class="icon-wallet text-primary" href="https://www.paypal.com/us/home" id="bannericons"></a>
+            </p>
+            <h4 class="text-center">
+                Donate
+            </h4>
+
+        </div>
+    </div>
+</div>    
+
+<!--Banner-->
+
+<div class="container-fluid p-0">
+    <div class="row d-flex flex-rap ">
+
+        <!-- First block Card -->
+        <div class="col-lg-6 order-lg-1 my-auto p-0">
+            <div class="card " >
+                <img class="card-img-top" src="assets/images/bcardmock4.jpg" alt="Card image cap" height="500px">
+            </div>
+        </div>      
+        <div class="col-lg-6 order-lg-0 my-auto p-5">
+            <div class="firstColumnTex ">
+                <h2 class="headerTitle ">Fully Responsive Design</h2>
+                <p class="load ">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+            </div>
+        </div>
+
+        <!-- Second block Card -->
+        <div class="col-lg-6 order-lg-2 my-auto p-0">
+            <div class="card " >
+                <img class="card-img-top" src="assets/images/banner1.jpg" alt="Card image cap" height="500px">
+            </div>
+        </div>  
+        <div class="col-lg-6 order-lg-3 my-auto p-5">
+            <div class="secondColumnText">
+                <h2>Updated For Bootstrap 4</h2>
+                <p class="load">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+            </div>
+        </div>
+
+        <!-- Third block Card -->
+        <div class="col-lg-6  order-lg-5 my-auto p-0">
+            <div class="card " >
+                <img class="card-img-bottom" src="assets/images/banner2.png" alt="Card image cap" height="500px">
+            </div>
+        </div>
+        <div class="col-lg-6  order-lg-4  my-auto my-auto p-5">
+            <div class="thirdColumnText">
+                <h2>Easy to Use &amp; Customize</h2>
+                <p class="load">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+            </div>
+        </div>  
+
+
+    </div> 
+</div> 
+
+<!--Login-modal-->
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="loginmodal-container text-dark" id="modalbg">
+            <span><i class="fas fa-cloud text-primary fa-2x mr-2 mt-0"></i></span>Virtual Business Card</a>
+            <h4>Login to Your Account</h4><br>
+            <form>
+                <input type="text" name="user" placeholder="Username">
+                <input type="password" name="pass" placeholder="Password">
+                <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+            </form>
+
+            <div class="login-help">
+                <a href="#">Register</a> - <a href="#">Forgot Password</a>
             </div>
         </div>
     </div>
-</section>
-<!-- Home page icons--> 
-<section id="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading mt-5">Services</h2>
-                <hr class="primary">
+</div>
+
+<!--Register-modal-->
+<div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="loginmodal-container text-dark" id="modalbg">
+            <span><i class="fas fa-cloud text-primary fa-2x mr-2 mt-0"></i></span>Virtual Business Card</a>
+            <h4>Login to Your Account</h4><br>
+            <form>
+                <input type="text" name="Company Name" placeholder="Company Name">
+                <input type="text" name="First Name" placeholder="First Name">
+                <input type="password" name="Last Name" placeholder="Last Name">
+                <input type="text" name="Email" placeholder="Email">
+                <input type="submit" name="Register" class="login loginmodal-submit" value="Register">
+            </form>
+
+            <div class="login-help">
+                <a href="#">Register</a> - <a href="#">Forgot Password</a>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-globe wow bounceIn text-primary mb-4" id="glow1"style="visibility: visible; animation-name: bounceIn;"></i>
-                    <h4>My Template</h4>
-                    <p class="text-white">Guaranteed to use the same fucking template that every other bootstrap website uses, downloaded straight from The Web™</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary mb-4" id="glow1" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
-                    <h4>This Set of Four Icons</h4>
-                    <p class="text-white">Look at this cool set of four icons describing different things about us! We use four, because it's the default.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-thumbs-up wow bounceIn text-primary mb-4" id="glow1" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;"></i>
-                    <h4>Lots of effort</h4>
-                    <p class="text-white">We even changed some of the icons! We take the extra effort to make our designs truly original.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-heart wow bounceIn text-primary mb-4" id="glow1" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: bounceIn;"></i>
-                    <h4>Made with Love</h4>
-                    <p class="text-white">Because nothing says hard work and talent like editing a few lines of text.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<?php include('_inc/footer.php'); ?>
+</div>
+<!--footer-->
+    <?php include('_inc/footer.php'); ?>

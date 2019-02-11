@@ -1,6 +1,6 @@
 <?php include('_inc/header.php'); ?>
 <!--Page Content-->
-<div class="container-fluid portfolio mb-3" id="designback">&nbsp;
+<div class="container-fluid portfolio mb-3">&nbsp;
     <div class="row">
         <div class="col-sm-12">
             <div class="heading">				
