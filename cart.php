@@ -9,7 +9,7 @@
         <div class="col-md-4"></div>
 
         <div class="col-md-4">
-            <a class="nav-link-active" href="index.php"><button class="btn btn-primary mb-0 text-dark mb-5">Return to home</button></a>
+            <a class="nav-link-active" href="index.php"><button class="btn btn-outline-warning mb-0 text-dark mb-5">Return to home</button></a>
         </div>
         <div class="col-md-4"></div>
     </div>

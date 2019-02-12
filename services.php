@@ -1,45 +1,44 @@
 <?php include('_inc/header.php'); ?>
 <!--Page Content-->
-<div class="container-fluid portfolio mb-3">&nbsp;
+<div class="container portfolio mb-3">&nbsp;
     <div class="row">
         <div class="col-sm-12">
             <div class="heading">				
-                <img src="https://image.ibb.co/cbCMvA/logo.png" />
+                <span><i class="fas fa-cloud text-primary fa-2x ml-2 mr-2" href="index.php"></i>Virtual Business Card</span>
             </div>
         </div>	
     </div>
     <div class="bio-info">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
                         <div class="bio-image">
                             <img src="http://placehold.it/350x400" class="img-responsive" alt="a" />
                         </div>			
                     </div>
                 </div>	
             </div>
-            <div class="col-sm-6">
-                <div class="bio-content text-center mb-5">
-                    <span><i class="fas fa-cloud text-primary fa-2x mr-2" href="index.php"></i>Virtual Business Card</span>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xs-6">
+                <div class="bio-content text-center mb-5">                    
                     <form>
                         <div class="row mt-5">
-                            <div class="col-sm-12 mb-3">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 mb-3">
                                 <input type="text" class="form-control" placeholder="Company Name">
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
                                 <input type="text" class="form-control" placeholder="First Name">
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
                                 <input type="text" class="form-control" placeholder="Last Name">
                             </div>
-                            <div class="col-sm-12 mt-5">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 mt-5">
                                 <input type="text" class="form-control" placeholder="Email">
                             </div>
-                            <div class="col-sm-12 mt-2">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 mt-2">
                                 <input type="text" class="form-control" placeholder="Phone">
                             </div>
-                            <div class="col-sm-12 mt-2">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 mt-2">
                                 <input type="text" class="form-control" placeholder="fax">
                             </div>
                         </div>
@@ -49,17 +48,17 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <a class="fb-ic">
-                                    <i class="fab fa-facebook-f fa-lg white-text fa-2x mt-5"> </i>
+                                    <i class="fab fa-facebook-f fa-lg text-primary fa-2x mt-5"> </i>
                                 </a>    
                             </div>
                             <div class="col-sm-4">
                                 <a class="tw-ic">
-                                    <i class="fab fa-twitter fa-lg white-text fa-2x mt-5"> </i>
+                                    <i class="fab fa-twitter fa-lg text-primary fa-2x mt-5"> </i>
                                 </a>    
                             </div>
                             <div class="col-sm-4">
                                 <a class="gplus-ic">
-                                    <i class="fab fa-instagram fa-lg white-text fa-2x mt-5"> </i>
+                                    <i class="fab fa-instagram fa-lg text-danger fa-2x mt-5"> </i>
                                 </a>   
                             </div>
                         </div>
@@ -68,4 +67,18 @@
             </div>
         </div>            
     </div>
-        <?php include('_inc/footer.php'); ?>
+    <!--buttons-->
+<div class="container text-center mt-5">
+    <div class="row">
+        <div class="col-sm-6">
+            <button class="btn btn-outline-primary">Upload image</button>
+        </div>
+        <div class="col-sm-3">
+            <button class="btn btn-outline-danger">Reset</button>
+        </div>
+        <div class="col-sm-3">
+            <button class="btn btn-outline-success">Save</button>
+        </div>
+            
+        	
+    </div>    

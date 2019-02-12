@@ -109,8 +109,8 @@
             <span><i class="fas fa-cloud text-primary fa-2x mr-2 mt-0 mb-2"></i></span>Virtual Business Card</a><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4>Login to Your Account</h4><br>
             <form>
-                <input class="login-modal-form" type="text" placeholder="Username" >
-                <input class="login-modal-form" type="text" placeholder="Password">                
+                <input class="login-modal-form" type="text" name="User" placeholder="Username">
+                <input class="login-modal-form" type="text" name="Password" placeholder="Password">                
             </form>
             <div class="login-help mt-3">
                 <small><a href="#">Forgot Password</a></small>

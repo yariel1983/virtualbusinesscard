@@ -165,14 +165,14 @@ p {
 
 .portfolio{
     padding:6%;
-    text-align:center;
+    text-align: center;
 
 
 }
 .heading{
     background: #fff;
     padding: 1%;
-    text-align: left;
+    text-align: center;
     box-shadow: 0px 0px 4px 0px #545b62;
     margin-bottom: 50px;
     border-radius: 50px; 
@@ -396,9 +396,7 @@ button, input {
 
 #loginmodalbtn{
     border-radius: 25px;
+    color: black;
 }
 
-#modalbtnclose{
-    border-radius: 100px;
-    background: red;
-}
+
