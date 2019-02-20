@@ -3,6 +3,7 @@
 <div class="container-fluid mb-5" style="background-image:  url('assets/images/333.jpg')">&nbsp;
     <div class="container py-5">
         <div class="row">
+            
             <div class="col-12 col-sm-8 col-md-6 col-lg-4 mx-auto">
                 <div id="pay-invoice" class="card">
                     <div class="card-body">
