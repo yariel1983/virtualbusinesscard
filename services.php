@@ -1,5 +1,6 @@
 <?php include('_inc/header.php'); ?>
 <!--Page Content-->
+<div class="container-fluid" style="background-image:  url('assets/images/333.jpg')">
 <div class="container portfolio mb-3">&nbsp;
     <div class="row">
         <div class="col-sm-12">
@@ -68,17 +69,18 @@
         </div>            
     </div>
     <!--buttons-->
-<div class="container text-center mt-5">
+<div class="container heading text-center mt-5">
     <div class="row">
         <div class="col-sm-6">
-            <button class="btn btn-outline-primary">Upload image</button>
+            <button class="btn btn-outline-primary"  id="designbtn">Upload image</button>
         </div>
         <div class="col-sm-3">
-            <button class="btn btn-outline-danger">Reset</button>
+            <button class="btn btn-outline-danger"  id="designbtn">Reset</button>
         </div>
         <div class="col-sm-3">
-            <button class="btn btn-outline-success">Save</button>
+            <a class="btn btn-outline-success"  href="checkout.php" id="designbtn">Save & Pay</a>
         </div>
             
         	
-    </div>    
+    </div>  
+</div>

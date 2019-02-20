@@ -28,16 +28,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="services.php">Card Design</a>
-                    </li>
-                    <!--<li class="nav-item">
-                        <a class="nav-link text-dark" href="contact.php">Contact</a>
-                    </li>-->
-                    <li class="nav-item text-dark">
-                        <a class="nav-link text-dark" href="cart.php"><span><i class="fas fa-shopping-cart text-dark" id="carticon"></i></span>
-                            <span class="badge badge-pill badge-danger text-danger" id="cartnoti">0</span>
-                        </a>
-                    </li>
-                    
                 </ul>
             </div>
         </nav>
