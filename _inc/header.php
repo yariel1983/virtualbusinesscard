@@ -14,7 +14,9 @@
         <nav class="navbar navbar-expand-lg fixed-top bg-dark">
             <a class="navbar-brand text-dark" href="index.php"><span><i class="fas fa-cloud text-primary fa-2x mr-2" href="index.php"></i></span>Virtual Business Card</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="hamb-top mb-2"></span>
+                <span class="hamb-middle mt-2 mb-2"></span>
+                <span class="hamb-bottom mt-2 mb-2"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">

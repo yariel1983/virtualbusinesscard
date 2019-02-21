@@ -1,5 +1,5 @@
 
-/*landing page CSS*/
+/* Navbar CSS start*/
 
 .navbar{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+51,afc7e8+62,bad0ef+75,99b5db+88,799bc8+100;Grey+Blue+Gloss+%231 */
@@ -10,6 +10,60 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
 
 }
+.navbar-toggler {
+    background: transparent;
+    position: relative;
+    z-index: 800;
+    border: none;
+    display: block;
+    height: 35px;
+    margin: 0;
+    float: right;
+    width: 56px;
+    -webkit-transition: all 0.35s ease-in-out;
+    background: #45abe6;
+    border: solid 10px #45abe6;
+    border-bottom: solid 6px #45abe6;
+    border-top: solid 4px #45abe6;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 17px;
+    transition: all 0.5s ease-in-out;
+    pointer-events: auto;
+}
+
+.navbar-toggler .hamb-top{
+    height: 3px;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #FFFFFF !important;
+}
+
+.navbar-toggler .hamb-middle{
+    height: 3px;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #FFFFFF !important;
+    margin-top: -3px;
+    top: 0%;
+}
+
+.navbar-toggler .hamb-bottom{
+    height: 3px;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #FFFFFF !important;
+    margin-top: -3px;
+    top: 50%;
+}
+
+/* Navbar CSS end*/
+
+
+/* landing page banner CSS start*/
 #bannericons {
     font-size:40px;
 }
@@ -37,7 +91,9 @@ p {
     background-color: #c7ec06 !important;
 }
 
+/* landing page banner CSS end*/
 
+/* landing page carousel CSS start*/
 .carousel-item {
     height: 83vh !important;
     min-height: 350px;
@@ -47,14 +103,16 @@ p {
     -o-background-size: cover;
     background-size: cover;
 }
+/* landing page carousel CSS end*/
 
+
+/* all form control CSS start*/
 .form-control{
     border-radius: 50px;
 }
+/* all form control CSS end*/
 
-.hr{
-    color: black !important;
-}
+
 .footer{
     color: black;
 }
@@ -495,17 +553,3 @@ p {
     transition: all 0.7s ease-in-out;
 }
 
-.navbar-toggler {
-    padding: .25rem .75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-   
-    border: 2px solid buttonface;
-    border-radius: .25rem;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+51,afc7e8+62,bad0ef+75,99b5db+88,799bc8+100;Grey+Blue+Gloss+%231 */
-    background: #d2dfed; /* Old browsers */
-    background: -moz-linear-gradient(top, #d2dfed 0%, #c8d7eb 26%, #bed0ea 51%, #a6c0e3 51%, #afc7e8 62%, #bad0ef 75%, #99b5db 88%, #799bc8 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
-}
