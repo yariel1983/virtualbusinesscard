@@ -116,11 +116,11 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">                       
-                        <input type="email" class="form-control form-control-lg mb-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
-                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control form-control-lg mb-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                        <label for="exampleInputEmail1">Email</label>
                     </div>
                     <div class="form-group">                        
-                        <input type="password" class="form-control form-control-lg mb-2" id="exampleInputPassword1" placeholder="Password">
+                        <input type="password" class="form-control form-control-lg mb-1" id="exampleInputPassword1" placeholder="Password">
                         <label for="exampleInputPassword1">Password</label>
                     </div>
                     <div class="custom-control custom-switch">
@@ -152,15 +152,15 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">                        
-                        <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="Company" placeholder="Company">
-                        <label for="exampleInputEmail1">Company Name</label>
+                        <input type="text" class="form-control form-control-lg mb-1" id="exampleInputEmail1" aria-describedby="Company" placeholder="Company">
+                        <label for="exampleInputEmail1">Company</label>
                     </div>
                     <div class="form-group">                        
-                        <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
-                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control form-control-lg mb-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                        <label for="exampleInputEmail1">Email</label>
                     </div>
                     <div class="form-group">                        
-                        <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
+                        <input type="password" class="form-control form-control-lg mb-1" id="exampleInputPassword1" placeholder="Password">
                         <label for="exampleInputPassword1">Password</label>
                     </div>                    
                 </form>

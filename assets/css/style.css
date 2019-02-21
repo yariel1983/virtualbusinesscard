@@ -48,39 +48,9 @@ p {
     background-size: cover;
 }
 
-
-#cartnoti{/*shopping cart notification badge start*/
-    position: relative;
-    top: -9px;
-    left: -4px;
-    display: inline-block;
-    min-width: 12px;
-    padding: 2px 2px 2px 2px;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 1;
-    color: #fff !important;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: 10px;
-}/*shopping cart notification badge end*/
-
-#carticon{
-    position: relative;
-    /* Adjust these values accordingly */
-    top: 0px;
-    left: 5px;
-    bottom:4px;
-}
-
-
 .form-control{
     border-radius: 50px;
 }
-
-
-
 
 .hr{
     color: black !important;
@@ -154,12 +124,6 @@ p {
     display: none !important;
 }
 
-/*Contact page CSS*/
-
-
-
-
-
 /*services Css*/
 
 
@@ -173,8 +137,7 @@ p {
     padding: 1%;
     text-align: center;
     box-shadow: 0px 0px 4px 0px #545b62;
-    margin-bottom: 50px;
-    border-radius: 10px; 
+    margin-bottom: 50px;     
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+51,afc7e8+62,bad0ef+75,99b5db+88,799bc8+100;Grey+Blue+Gloss+%231 */
     background: #d2dfed; /* Old browsers */
     background: -moz-linear-gradient(top, #d2dfed 0%, #c8d7eb 26%, #bed0ea 51%, #a6c0e3 51%, #afc7e8 62%, #bad0ef 75%, #99b5db 88%, #799bc8 100%); /* FF3.6-15 */
@@ -188,7 +151,6 @@ p {
 .bio-info{
     padding: 5%;
     box-shadow: 10px 10px 20px #000000;
-    border-radius: 25px;
     text-shadow: 10px 10px 20px #000000;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+51,afc7e8+62,bad0ef+75,99b5db+88,799bc8+100;Grey+Blue+Gloss+%231 */
     background: #d2dfed; /* Old browsers */
@@ -205,9 +167,7 @@ p {
     text-align:center;
 
 }
-.bio-image img{
-    border-radius: 20px 20px 20px 20px;
-}
+
 .bio-content{
     text-align:left;
 
@@ -398,12 +358,11 @@ p {
     position: relative;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 8rem;
+    padding: 5rem;
+    
 }
 
-#designbtn{
-    border-radius: 25px !important;
-}
+
 
 /*about*/
 .qr {
