@@ -3,7 +3,7 @@
 <footer class="footer-bs text-dark mt-5">
     <div class="row">
         <div class="col-md-3 footer-brand animated fadeInLeft">
-            <span><i class="fas fa-cloud text-primary fa-2x mb-2 mr-2"></i>Virtual Business Card</span>
+            <span><i class="icon-layers text-primary fa-2x mb-2 mr-2"></i>Virtual Business Card</span>
             <p class="text-dark">© 2019 Yariel Dominguez UI, All rights reserved</p>
         </div>
 

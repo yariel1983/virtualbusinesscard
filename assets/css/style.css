@@ -21,8 +21,8 @@
     float: right;
     width: 56px;
     -webkit-transition: all 0.35s ease-in-out;
-    background: #45abe6;
-    border: solid 10px #45abe6;
+    background: none;
+    border: solid 10px;
     border-bottom: solid 6px #45abe6;
     border-top: solid 4px #45abe6;
     border-bottom-right-radius: 6px;
@@ -71,7 +71,7 @@
     font-size:45px;
     color:  red !important;
 }
-h2 h4{
+h4{
     font-family: 'Lato', sans-serif; font-weight: 100;
 }
 p {
@@ -551,5 +551,55 @@ p {
     -moz-transition: all 0.7s ease-in-out;
     -o-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
+}
+
+/*testing*/
+
+body{
+    height:100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    }
+#up{
+     border-bottom:0px solid transparent;
+     box-shadow: 0 0 transparent;
+     background:transparent;
+   }
+#navbarSupportedContent li {
+    margin:0px 10px;
+}
+#navbarSupportedContent li a{
+    color:white;
+}
+#up h2{
+   color:#00c851!important;
+   font-size:1.3rem;
+   cursor: pointer;
+          
+}
+.wrapper{
+  	/*background:url('https://www.tuexperto.com/wp-content/uploads/2017/10/fondo-de-pantalla-paisaje.jpg');*/
+   background-position:center;
+   background-size:cover;
+   background-repeat:no-repeat;
+   width:100%;
+   height:100vh;
+   position:static;
+   color:white;
+            
+    
+}
+ .overlays{
+    position:absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: rgb(13, 13, 14);
+}
+
+.btn{
+    border-radius: 25px !important;
+    padding: 10px 80px 10px 80px;
 }
 

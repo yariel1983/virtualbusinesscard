@@ -71,14 +71,14 @@
         <!--buttons-->
         <div class="container heading text-center mt-5">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-5">
                     <button class="btn btn-outline-primary"  id="designbtn">Upload image</button>
                 </div>
                 <div class="col-sm-3">
                     <button class="btn btn-outline-danger"  id="designbtn">Reset</button>
                 </div>
-                <div class="col-sm-3">
-                    <a class="btn btn-outline-success"  href="checkout.php" id="designbtn">Save & Pay</a>
+                <div class="col-sm-4">
+                    <a class="btn btn-outline-success"  href="checkout.php" id="designbtn">Save</a>
                 </div>
 
 
