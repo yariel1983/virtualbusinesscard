@@ -1,6 +1,6 @@
 
 <?php include('_inc/header.php'); ?>
-<div class="container-fluid mb-5" style="background-image:  url('assets/images/333.jpg')">&nbsp;
+<div class="container-fluid" style="background-image:  url('assets/images/333.jpg')">&nbsp;
     <div class="container py-5">
         <div class="row">
             
@@ -8,18 +8,13 @@
                 <div id="pay-invoice" class="card">
                     <div class="card-body">
                         <div class="card-title">
-                            <h3 class="text-center">Pay Invoice</h3>
+                            <h3 class="text-center">Payment</h3>
                         </div>
                         <hr>
                         <form action="/echo" method="post" novalidate="novalidate" class="needs-validation">
-                            <div class="form-group text-center">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="text-muted fa fa-cc-visa fa-2x"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-cc-mastercard fa-2x"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-cc-amex fa-2x"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-cc-discover fa-2x"></i></li>
-                                </ul>
-                            </div>
+                            <div class="display-td" >                            
+                                <img class="img-responsive ml-5" src="assets/images/payment.png">
+                        </div>
                             <div class="form-group">
                                 <label for="cc-payment" class="control-label mb-1">Payment amount</label>
                                 <input id="cc-payment" name="cc-payment" type="text" class="form-control" aria-required="true" aria-invalid="false" required value="100.00">

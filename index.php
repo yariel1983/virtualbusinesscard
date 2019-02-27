@@ -39,7 +39,8 @@
         <div class="row h-100 justify-content-between align-items-center">
             <div class="col-lg-12">
                 <div class="text-center">
-                    <h1 class="mt-5">Do you want to make your own Virtual Business Card yourself?</h1>
+                    <h1 class="mt-5 text-faded">Do you want to make your own 
+                        Virtual Business Card?</h1>
                     <p>Are you tired of been printing business cards? Waiting for them to be delivery at your door step.
                     </p>
                     <button class="btn btn-success btn-outline mt-5" data-toggle="modal" data-target="#login-modal" id="loginbtn"> LOGIN</button>
@@ -191,8 +192,8 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Login</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btnmodalclose">Close</button>
+                <button type="button" class="btn btn-primary" id="btnmodallogin">Login</button>
             </div>
         </div>
     </div>
@@ -226,8 +227,8 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Register</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btnmodalclose">Close</button>
+                <button type="button" class="btn btn-primary" id="btnmodalregister">Register</button>
             </div>
         </div>
     </div>

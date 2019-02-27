@@ -1,15 +1,7 @@
 
 /* Navbar CSS start*/
 
-.navbar{
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+51,afc7e8+62,bad0ef+75,99b5db+88,799bc8+100;Grey+Blue+Gloss+%231 */
-    background: #d2dfed; /* Old browsers */
-    background: -moz-linear-gradient(top, #d2dfed 0%, #c8d7eb 26%, #bed0ea 51%, #a6c0e3 51%, #afc7e8 62%, #bad0ef 75%, #99b5db 88%, #799bc8 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
 
-}
 .navbar-toggler {
     background: transparent;
     position: relative;
@@ -23,13 +15,17 @@
     -webkit-transition: all 0.35s ease-in-out;
     background: none;
     border: solid 10px;
-    border-bottom: solid 6px #45abe6;
+    border-bottom: solid 4px #45abe6;
     border-top: solid 4px #45abe6;
+    border-left: #45abe6;
+    border-right: #45abe6;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
     padding: 17px;
     transition: all 0.5s ease-in-out;
     pointer-events: auto;
+    
+    
 }
 
 .navbar-toggler .hamb-top{
@@ -598,8 +594,28 @@ body{
     background: rgb(13, 13, 14);
 }
 
-.btn{
+#loginbtn, #registerbtn, #btnmodallogin, #btnmodalclose, #btnmodalregister{
     border-radius: 25px !important;
     padding: 10px 80px 10px 80px;
 }
 
+
+
+h1 {
+    font-size: 4.0em;
+    /*line-height: 1.3em;*/
+    
+}
+
+#navbarSupportedContent{
+    width: 400px !important;
+    height: 0em;
+    position: relative;
+    margin: 0;
+    
+    position: absolute;
+    top: 80%;
+    left: 92%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
