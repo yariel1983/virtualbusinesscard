@@ -1,6 +1,6 @@
 
 <?php include('_inc/header.php'); ?>
-<div class="container-fluid" style="background-image:  url('assets/images/333.jpg')">&nbsp;
+<div class="container-fluid" id="paymentbody">&nbsp;
     <div class="container py-5">
         <div class="row">
             

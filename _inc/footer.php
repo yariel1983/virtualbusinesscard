@@ -31,13 +31,11 @@
             </ul>
         </div>
         <div class="col-md-3 footer-ns animated fadeInRight">
-            <h4>Founders</h4><img class="img-fluid rounded-circle mr-1" src="assets/images/yariel.png" alt="Responsive" width="40px"><img class="img-fluid rounded-circle" src="assets/images/paul.jpeg" alt="Responsive" width="40px"> 
-            <p class="text-dark">A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
-            <p>
-            <div class="input-group">
+            <h4>Meet the team</h4><img class="img-fluid rounded-circle mr-1" src="assets/images/yariel.png" alt="Responsive" width="40px"><img class="img-fluid rounded-circle" src="assets/images/paul.jpeg" alt="Responsive" width="40px">            
+            <div class="input-group mt-5">
                 <input type="text" class="form-control" placeholder="Search" id="footersearchbtn">
                 <span class="input-group-btn">
-                    <button class="btn btn-light ml-0" type="button" id="footerbtn"><i class="fas fa-search"></i></span></button>
+                    <button class="btn btn-light ml-0 border-1" type="button" id="footerbtn"><i class="fas fa-search"></i></span></button>
                 </span>
             </div><!-- /input-group -->
             </p>

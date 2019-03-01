@@ -1,5 +1,5 @@
 <?php include('_inc/header.php'); ?>
-<div class="container-fluid" style="background-image:  url('assets/images/333.jpg')">&nbsp;
+<div class="container-fluid">&nbsp;
 <div class="container prices mt-5">
     <div class="jumbotron pricing-tables-jumbotron">
         <h2></h2>

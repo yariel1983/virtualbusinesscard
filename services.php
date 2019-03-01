@@ -1,6 +1,6 @@
 <?php include('_inc/header.php'); ?>
 <!--Page Content-->
-<div class="container-fluid" style="background-image:  url('assets/images/333.jpg')">
+<div class="container-fluid">
     <div class="container portfolio mb-3">&nbsp;
         <div class="row">
             <div class="col-sm-12">

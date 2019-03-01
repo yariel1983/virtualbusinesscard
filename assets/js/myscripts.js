@@ -1,7 +1,7 @@
 $(window).scroll(function(){
         if( $(this).scrollTop()>50){
             
-            $('.navbar').css('background','#45abe6');
+            $('.navbar').css('background','transparent');
            
           }else{
             $('.navbar').css('background','transparent');
