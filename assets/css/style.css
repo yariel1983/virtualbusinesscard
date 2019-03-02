@@ -607,7 +607,7 @@ h1 {
     top: 80%;
     left: 92%;
     margin-right: -50%;
-    transform: translate(-60%, -50%) 
+    transform: translate(-70%, -50%) 
 }
 #paymentbody{
     background: #f8f9fa !important;
@@ -615,4 +615,8 @@ h1 {
 
 .ul, .list-group-item{
     background: rgba(0, 123, 255,0.25)  !important;
+    
+}
+dl, ol, ul {
+    margin-right: 50px !important;
 }
