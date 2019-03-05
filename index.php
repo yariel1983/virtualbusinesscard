@@ -1,5 +1,5 @@
 <?php include('_inc/header.php'); ?>
-<section class="wrapper fixed-top" style="background-image:  url('assets/images/home1_1.jpg')">
+<section class="wrapper fixed-top" style="background-image:  url('assets/images/landingOriginal.jpg')">
     <div class="overlays">
         <main>
 
