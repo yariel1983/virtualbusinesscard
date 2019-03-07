@@ -598,15 +598,7 @@ h3{
     border-radius: 10px;
 }
 
-i{
-    font-size:50px;
-    color: salmon;
-}
 
-i:hover{
-    font-size:70px;
-    color: hotpink;
-}
 
 
 
@@ -633,6 +625,4 @@ i:hover{
 
 .form-elegant .modal-body, .form-elegant .modal-footer {
     font-weight: 400; }
-
-
 

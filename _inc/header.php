@@ -20,19 +20,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="list-group text-center" id="ulmenu">
                 <li class="list-group-item text-dark border-0" id="limenu">
-                <big><span class="list-group-item border-0 fa-3x">Menu</span></big>                   
+                <span class="list-group-item border-0 fa-3x"></span><h3>Menu</h3>                  
                 </li>
                 <li class="list-group-item border-0" id="limenu">
-                <big><a class="list-group-item border-0 fa-2x" href="index.php"><span><i class="fas fa-home mr-1" href="index.php"></i> <small>Home</small></span>
+                <big><a class="list-group-item border-0 fa-2x" href="index.php"><span><i class="fas fa-home mr-1" href="index.php" id="homeicon"></i></span><h4>Home</h4>
                        
                     </a></big>
                 </li>
                 <li class="list-group-item border-0" id="limenu">
-                <big><a class="list-group-item border-0 fa-2x" href="about.php"><span><i class="fas fa-award mr-1" href="about.php"></i> <small>About</small></span>
+                <big><a class="list-group-item border-0 fa-2x" href="about.php"><span><i class="fas fa-award mr-1" href="about.php" id="abouticon"></i></span><h4>About</h4>
                     </a></big>
                 </li>
                 <li class="list-group-item border-0 fa-2x" id="limenu">
-                <big><a class="list-group-item border-0" href="services.php"><span><i class="fas fa-palette mr-1 ml-1" href="services.php"></i> <small>Desings</small></span>
+                <big><a class="list-group-item border-0" href="services.php"><span><i class="fas fa-palette mr-1 ml-1" href="services.php" id="designicon"></i></span><h4>Desings</h4>
                     </a></big>
                 </li>
                 
