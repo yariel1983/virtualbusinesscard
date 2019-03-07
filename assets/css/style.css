@@ -600,11 +600,12 @@ h3{
 
 i{
     font-size:50px;
-    color: olive;
+    color: salmon;
 }
 
 i:hover{
     font-size:70px;
+    color: hotpink;
 }
 
 
