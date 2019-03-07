@@ -7,7 +7,9 @@ $(window).scroll(function(){
             $('.navbar').css('background','transparent');
           }
     });
-  //navbar closemenu colapse show and close and toggler show and close//  
+  
+
+//navbar closemenu colapse show and close and toggler show and close//  
    $(document).ready(function(){
     $(".navbar-toggler").click(function(){
         $("#navbarSupportedContent").toggle();
@@ -21,7 +23,14 @@ $(window).scroll(function(){
 
 //navbar toggler hide//
 $('#navbutton').click( function () {
-$('#navbutton').hide();
+$('#navbutton').hide(0);
 });
+
+
+
+
+
+
+
 
 

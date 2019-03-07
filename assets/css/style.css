@@ -32,7 +32,7 @@
     right: 0;
     position: absolute;
     width: 100%;
-    background-color: black !important;
+    background-color: rgba(172,21,18,1) !important;
 }
 
 
@@ -41,7 +41,7 @@
     right: 0;
     position: absolute;
     width: 100%;
-    background-color: black !important;
+    background-color: rgba(172,21,18,1) !important;
     margin-top: -3px;
     top: 0%;
 }
@@ -52,7 +52,7 @@
     right: 0;
     position: absolute;
     width: 100%;
-    background-color: black !important;
+    background-color: rgba(172,21,18,1) !important;
     margin-top: -3px;
     top: 50%;
 }
@@ -366,45 +366,6 @@
 /*Login modal css start*/
 
 
-.modal {
-    text-align: center;
-}
-
-
-.modal-content{
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+51,afc7e8+62,bad0ef+75,99b5db+88,799bc8+100;Grey+Blue+Gloss+%231 */
-    background: #d2dfed; /* Old browsers */
-    background: -moz-linear-gradient(top, #d2dfed 0%, #c8d7eb 26%, #bed0ea 51%, #a6c0e3 51%, #afc7e8 62%, #bad0ef 75%, #99b5db 88%, #799bc8 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
-    
-}
-
-@media screen and (min-width: 768px) { 
-    .modal:before {
-        /*display: inline-block;*/
-        vertical-align: middle;
-        content: " ";
-        height: 100%;
-    }
-}
-
-.modal-dialog {
-    display: inline-block;
-    vertical-align: middle;
-    
-}
-
-.modal-body {
-    position: relative;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    padding: 5rem;
-    
-}
-
-
 /*about css start*/
 
 
@@ -584,39 +545,80 @@ body{
     background: rgb(13, 13, 14);
 }
 
-#loginbtn, #registerbtn, #btnmodallogin, #btnmodalclose, #btnmodalregister{
-    border-radius: 25px !important;
-    padding: 10px 80px 10px 80px;
+#loginbtn, #registerbtn{
+    border-radius: 50px !important;
+    padding: 5px 80px 5px 80px;
+    font-size: 1.5em;
 }
 
 
 
 h1 {
-    font-size: 4.0em;
+    font-size: 6.0em;
     /*line-height: 1.3em;*/
     
 }
 
+h3{
+  margin-top: 50px;  
+}
+
 #navbarSupportedContent{
-    width: 400px !important;
+    width: 252px !important;
     height: 0em;
     position: relative;
     margin: 0;
     
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 92%;
     margin-right: -50%;
-    transform: translate(-70%, -50%) 
+    transform: translate(-73%, -50%) 
 }
 #paymentbody{
     background: #f8f9fa !important;
+    padding-bottom: 150px;
 }
 
-.ul, .list-group-item{
-    background: rgba(0, 123, 255,0.25)  !important;
-    
+#limenu{
+  box-shadow: 4px 8px 8px 4px black;  
 }
-dl, ol, ul {
-    margin-right: 50px !important;
+#closeMenu{
+    font-size:50px;
 }
+#closeMenu:hover{
+    font-size:70px;
+}
+
+#ulmenu{
+    background: #45abe6;
+    box-shadow: 4px 8px 8px 4px black;
+    padding: 0px 10px 0px 10px;
+}
+
+
+/* login modal*/
+
+.form-elegant .font-small {
+    font-size: 0.8rem; }
+
+.form-elegant .z-depth-1a {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+    box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25); }
+
+.form-elegant .z-depth-1-half,
+.form-elegant .btn:hover {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15); }
+
+.form-elegant .modal-header {
+    border-bottom: none; }
+
+.modal-dialog .form-elegant .btn .fab {
+    color: #2196f3!important; }
+
+.form-elegant .modal-body, .form-elegant .modal-footer {
+    font-weight: 400; }
+
+
+

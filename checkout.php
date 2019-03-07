@@ -17,7 +17,7 @@
                         </div>
                             <div class="form-group">
                                 <label for="cc-payment" class="control-label mb-1">Payment amount</label>
-                                <input id="cc-payment" name="cc-payment" type="text" class="form-control" aria-required="true" aria-invalid="false" required value="100.00">
+                                <input id="cc-payment" name="cc-payment" type="text" class="form-control" aria-required="true" aria-invalid="false" required value="$ 99.00">
                                 <span class="invalid-feedback">Enter the payment amount</span>
                             </div>
                             <div class="form-group has-success">
@@ -61,7 +61,7 @@
                             <div>
                                 <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
                                     <i class="fa fa-lock fa-lg"></i>&nbsp;
-                                    <span id="payment-button-amount">Pay $100.00</span>
+                                    <span id="payment-button-amount">Pay</span>
                                     <span id="payment-button-sending" style="display:none;">Sending…</span>
                                 </button>
                             </div>

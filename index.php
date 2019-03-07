@@ -1,50 +1,20 @@
 <?php include('_inc/header.php'); ?>
 <section class="wrapper fixed-top" style="background-image:  url('assets/images/landingOriginal.jpg')">
-    <div class="overlays">
-        <main>
+    <div class="overlays"></div>
 
-            <nav class="floating-menu mt-5">
-                <ul class="main-menu">
-                    <li>
-                        <a href="#" class="ripple">
-                            <i class="fas fa-home fa-lg"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="ripple">
-                            <i class="far fa-user fa-lg"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="ripple">
-                            <i class="far fa-address-card fa-lg"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="ripple">
-                            <i class="fas fa-cogs fa-lg"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="ripple">
-                            <i class="fab fa-blogger-b fa-lg"></i>
-                        </a>
-                    </li>
-                </ul>
-                <div class="menu-bg"></div>
-            </nav>
-        </main>
-    </div><!--Mascara de imagen-->
+    <!--Mascara de imagen-->
     <div class="container h-100">
         <div class="row h-100 justify-content-between align-items-center">
             <div class="col-lg-12">
                 <div class="text-center">
                     <h1 class="mt-5 text-faded">Do you want to make your own 
                         Virtual Business Card?</h1>
-                    <p>Are you tired of been printing business cards? Waiting for them to be delivery at your door step.
-                    </p>
-                    <button class="btn btn-success btn-outline mt-5" data-toggle="modal" data-target="#login-modal" id="loginbtn"> LOGIN</button>
-                    <button class="btn btn-outline-primary  mt-5" data-toggle="modal" data-target="#register-modal" id="registerbtn"> REGISTER</button>
+
+                    <button class="btn btn-outline-primary  mt-5 mb-5" data-toggle="modal" data-target="#login-modal" id="loginbtn"> Login</button>
+                    <button class="btn btn-success btn-outline mt-5 mb-5" data-toggle="modal" data-target="#register-modal" id="registerbtn"> Register</button>
+
+                    <h3>Are you tired ordering business cards?...</h3>
+                    <h4> Then, this is for you</h4>
 
                 </div>
 
@@ -55,75 +25,18 @@
 
 </section> 
 
-<!--Carousel
-<div class="container-fluid mt-5">
-    <div class="item active">
-        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-interval="4000" style="background-image:  url('assets/images/444.png')"></div>
-                <div class="carousel-item" data-interval="4000" style="background-image:  url('assets/images/333.jpg')"></div>
-                <div class="carousel-item" data-interval="4000" style="background-image:  url('assets/images/555.jpg')"></div>
-
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
+<!--Page Content-->
 
 
-
-
-
-
-
-<!--Page Content
-
-<div class="container-fluid">
-    <div class="row pt-5 pb-5 home-banner">
-        <div class="col-sm-4">
-            <p class="text-center">
-                <a class="icon-people text-primary" data-toggle="modal" data-target="#login-modal" id="bannericons"></a>
-            </p>
-            <h4 class="text-center">
-                Login
-            </h4>
-
-        </div>
-        <div class="col-sm-4">
-            <p class="text-center">
-                <a class="icon-user text-primary" data-toggle="modal" data-target="#register-modal" id="bannericons"></a>
-            </p>
-            <h4 class="text-center">
-                Register
-            </h4>
-
-        </div>
-        <div class="col-sm-4">
-            <p class="text-center">
-                <a class="icon-wallet text-primary" href="https://www.paypal.com/us/home" id="bannericons"></a>
-            </p>
-            <h4 class="text-center">
-                Donate
-            </h4>
-
-        </div>
-    </div>
-</div>    
-
-<!--Banner-->
+<br>
 <section>
-    <div class="container p-0 mt-5 bg-white">
+    <div class="container p-0 bg-white mt-2" id="landingbanner">
         <div class="row d-flex flex-rap ">
 
             <!-- First block Card -->
-            <div class="col-md-6 order-sm-0 my-auto p-1">
+            <div class="col-md-6 order-sm-0 my-auto p-0">
                 <div class="card border-0" >
-                    <img class="card-img-top border-0" src="assets/images/2images.jpg" alt="Card image cap" height="500px" width="50px">
+                    <img class="card-img-top border-0" src="assets/images/banner11.jpg" alt="Card image cap" height="500px">
                 </div>
             </div>      
             <div class="col-md-6 order-sm-1 my-auto p-5">
@@ -136,7 +49,7 @@
             <!-- Second block Card-->
             <div class="col-md-6 order-sm-3 my-auto p-0">
                 <div class="card border-0" >
-                    <img class="card-img-top" src="assets/images/5images.jpg" alt="Card image cap" height="500px" width="50px">
+                    <img class="card-img-top" src="assets/images/banner11111.jpg" alt="Card image cap" height="500px">
                 </div>
             </div>  
             <div class="col-md-6 order-lg-2 my-auto p-5">
@@ -149,7 +62,7 @@
             <!-- Third block Card-->
             <div class="col-md-6  order-sm-4 my-auto p-0">
                 <div class="card border-0" >
-                    <img class="card-img-bottom" src="assets/images/1img.jpg" alt="Card image cap" height="500px" width="50px">
+                    <img class="card-img-bottom" src="assets/images/banner111111.jpg" alt="Card image cap" height="500px">
                 </div>
             </div>
             <div class="col-md-6  order-sm-5  my-auto my-auto p-5">
@@ -163,78 +76,127 @@
         </div> 
     </div>
 
-    
+
+
 
     <!-- Login Modal -->
-    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <span><i class="fas fa-cloud text-primary fa-2x mr-2 mt-0 mb-2"></i></span>
-                    <h5 class="modal-title" id="exampleModalLabel">Virtual Business Card</h5>
+            <!--Content-->
+            <div class="modal-content form-elegant">
+                <!--Header-->
+                <div class="modal-header text-center">
+                    <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel"><strong>Sign in</strong></h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">                       
-                            <input type="email" class="form-control form-control-lg mb-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-                            <label for="exampleInputEmail1">Email</label>
-                        </div>
-                        <div class="form-group">                        
-                            <input type="password" class="form-control form-control-lg mb-1" id="exampleInputPassword1" placeholder="Password">
-                            <label for="exampleInputPassword1">Password</label>
-                        </div>
-                        <div class="custom-control custom-switch">
-                            <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                            <label class="custom-control-label" for="customSwitch1">Remember me</label>
-                        </div>
+                <!--Body-->
+                <div class="modal-body mx-4">
+                    <!--Body-->
+                    <div class="md-form mb-3">
+                        <input type="email" id="defaultRegisterFormEmail" class="form-control" placeholder="E-mail">
 
-                    </form>
+                        <label data-error="wrong" data-success="right" for="Form-email1"></label>
+                    </div>
+
+                    <div class="md-form pb-3">
+                        <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                        <label data-error="wrong" data-success="right" for="Form-pass1"></label>
+                        <p class="font-small blue-text d-flex justify-content-end">Forgot <a href="#" class="blue-text ml-1">
+                                Password?</a></p>
+                    </div>
+
+                    <div class="text-center mb-3">
+                        <button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Sign in</button>
+                    </div>
+                    <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> or Sign in
+                        with:</p>
+
+                    <div class="row my-3 d-flex justify-content-center">
+                        <!--Facebook-->
+                        <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-facebook-f text-center"></i></button>
+                        <!--Twitter-->
+                        <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-twitter"></i></button>
+                        <!--Google +-->
+                        <button type="button" class="btn btn-white btn-rounded z-depth-1a"><i class="fab fa-google-plus-g"></i></button>
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btnmodalclose">Close</button>
-                    <button type="button" class="btn btn-primary" id="btnmodallogin">Login</button>
+                <!--Footer-->
+                <div class="modal-footer mx-5 pt-3 mb-1">
+                    <p class="font-small grey-text d-flex justify-content-end">Not a member? <a href="#" class="blue-text ml-1">
+                            Sign Up</a></p>
                 </div>
             </div>
+            <!--/.Content-->
         </div>
     </div>
+    
+
 
     <!-- Register Modal -->
-    <div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <span><i class="fas fa-cloud text-primary fa-2x mr-2 mt-0 mb-2"></i></span>
-                    <h5 class="modal-title" id="exampleModalLabel">Virtual Business Card</h5>
+            <!--Content-->
+            <div class="modal-content form-elegant">
+                <!--Header-->
+                <div class="modal-header text-center">
+                    <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel"><strong>Sign up</strong></h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">                        
-                            <input type="text" class="form-control form-control-lg mb-1" id="exampleInputEmail1" aria-describedby="Company" placeholder="Company">
-                            <label for="exampleInputEmail1">Company</label>
+                <!--Body-->
+                <div class="modal-body mx-4">
+                    <!--Body-->
+                    <div class="row">
+                        <div class="md-form mb-3 col-md-6">
+                            <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+                            <label data-error="wrong" data-success="right" for="Form-email1"></label>
                         </div>
-                        <div class="form-group">                        
-                            <input type="email" class="form-control form-control-lg mb-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-                            <label for="exampleInputEmail1">Email</label>
+                        <div class="md-form mb-3 col-md-6">
+                            <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+                            <label data-error="wrong" data-success="right" for="Form-email1"></label>
                         </div>
-                        <div class="form-group">                        
-                            <input type="password" class="form-control form-control-lg mb-1" id="exampleInputPassword1" placeholder="Password">
-                            <label for="exampleInputPassword1">Password</label>
-                        </div>                    
-                    </form>
+                        <div class="md-form pb-3 col-md-12">
+                            <input type="email" id="defaultRegisterFormEmail" class="form-control" placeholder="E-mail">
+                            <label data-error="wrong" data-success="right" for="Form-pass1"></label>
+
+                        </div>
+
+                        <div class="md-form pb-3 col-md-12">
+                            <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                            <label data-error="wrong" data-success="right" for="Form-pass1"></label>
+
+                        </div>
+                    </div>
+                    <div class="text-center mb-3">
+                        <button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Sign in</button>
+                    </div>
+                    <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> or Sign up
+                        with:</p>
+
+                    <div class="row my-3 d-flex justify-content-center">
+                        <!--Facebook-->
+                        <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-facebook-f text-center"></i></button>
+                        <!--Twitter-->
+                        <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-twitter"></i></button>
+                        <!--Google +-->
+                        <button type="button" class="btn btn-white btn-rounded z-depth-1a"><i class="fab fa-google-plus-g"></i></button>
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btnmodalclose">Close</button>
-                    <button type="button" class="btn btn-primary" id="btnmodalregister">Register</button>
+                <!--Footer-->
+                <div class="modal-footer mx-5 pt-3 mb-1">
+                    <p class="font-small grey-text d-flex justify-content-end">Already a member? <a href="#" class="blue-text ml-1">
+                            Sign in</a></p>
                 </div>
             </div>
+            <!--/.Content-->
         </div>
     </div>
+    
 
     <!--footer-->
     <?php include('_inc/footer.php'); ?>
