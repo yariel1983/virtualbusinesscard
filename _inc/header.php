@@ -23,16 +23,16 @@
                 <big><span class="list-group-item border-0 fa-3x">Menu</span></big>                   
                 </li>
                 <li class="list-group-item border-0" id="limenu">
-                <big><a class="list-group-item border-0 fa-2x" href="index.php"><span><i class="fas fa-home mr-1" href="index.php"></i> Home</span>
+                <big><a class="list-group-item border-0 fa-2x" href="index.php"><span><i class="fas fa-home mr-1" href="index.php"></i> <small>Home</small></span>
                        
                     </a></big>
                 </li>
                 <li class="list-group-item border-0" id="limenu">
-                <big><a class="list-group-item border-0 fa-2x" href="about.php"><span><i class="fas fa-award mr-1" href="about.php"></i> About</span>
+                <big><a class="list-group-item border-0 fa-2x" href="about.php"><span><i class="fas fa-award mr-1" href="about.php"></i> <small>About</small></span>
                     </a></big>
                 </li>
                 <li class="list-group-item border-0 fa-2x" id="limenu">
-                <big><a class="list-group-item border-0" href="services.php"><span><i class="fas fa-palette mr-1 ml-1" href="services.php"></i> Desings</span>
+                <big><a class="list-group-item border-0" href="services.php"><span><i class="fas fa-palette mr-1 ml-1" href="services.php"></i> <small>Desings</small></span>
                     </a></big>
                 </li>
                 

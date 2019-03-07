@@ -61,12 +61,12 @@
 
             <!-- Third block Card-->
             <div class="col-md-6  order-sm-4 my-auto p-0">
-                <div class="card border-0" >
-                    <img class="card-img-bottom" src="assets/images/banner111111.jpg" alt="Card image cap" height="500px">
+                <div class="card border-0 mb-4" >
+                    <img class="card-img-bottom mb-2" src="assets/images/banner111111.jpg" alt="Card image cap" height="500px">
                 </div>
             </div>
             <div class="col-md-6  order-sm-5  my-auto my-auto p-5">
-                <div class="text-center border-0">
+                <div class="text-center border-0 mb-4">
                     <h2 class="headerTitle text-muted">Easy to Use &amp; Customize</h2>
                     <p class="load">Save your project and ready to go!</p>
                 </div>
@@ -132,7 +132,7 @@
             <!--/.Content-->
         </div>
     </div>
-    
+
 
 
     <!-- Register Modal -->
@@ -196,7 +196,7 @@
             <!--/.Content-->
         </div>
     </div>
-    
+
 
     <!--footer-->
     <?php include('_inc/footer.php'); ?>

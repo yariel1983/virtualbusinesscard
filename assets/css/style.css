@@ -74,6 +74,7 @@
 
 .footer{
     color: black;
+    border-top: 1px solid #000000;
 }
 
 .footer-bs {
@@ -576,7 +577,7 @@ h3{
     transform: translate(-73%, -50%) 
 }
 #paymentbody{
-    background: #f8f9fa !important;
+    background: white !important;
     padding-bottom: 150px;
 }
 
@@ -594,10 +595,22 @@ h3{
     background: #45abe6;
     box-shadow: 4px 8px 8px 4px black;
     padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+}
+
+i{
+    font-size:50px;
+    color: olive;
+}
+
+i:hover{
+    font-size:70px;
 }
 
 
-/* login modal*/
+
+
+/* sign in & sign up modals*/
 
 .form-elegant .font-small {
     font-size: 0.8rem; }
