@@ -71,14 +71,16 @@
         <!--buttons-->
         <div class="container heading text-center mt-5">
             <div class="row">
-                <div class="col-sm-5">
-                    <button class="btn btn-outline-primary"  id="designbtn">Upload image</button>
+                <div class="col-sm-8">
+                    <div class="form-group text-center">                       
+                        <input type="file" class="form-control-file btn btn-light bg-transparent border-0" id="exampleFormControlFile1">
+                    </div>
                 </div>
-                <div class="col-sm-3">
-                    <button class="btn btn-outline-danger"  id="designbtn">Reset</button>
+                <div class="col-sm-2">
+                    <a class="btn btn-danger" href="#">Reset</a>
                 </div>
-                <div class="col-sm-4">
-                    <a class="btn btn-outline-success"  href="checkout.php" id="designbtn">Save</a>
+                <div class="col-sm-2">
+                    <a class="btn btn-primary" href="checkout.php">Save</a>
                 </div>
 
 

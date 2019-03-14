@@ -1,6 +1,5 @@
 
-/* Navbar CSS start*/
-
+/* Navbar CSS*/
 
 .navbar-toggler {
     background: transparent;
@@ -26,7 +25,7 @@
     pointer-events: auto;
 }
 
-
+/*Toggler button*/
 .navbar-toggler .hamb-top{
     height: 3px;
     right: 0;
@@ -57,20 +56,13 @@
     top: 50%;
 }
 
-/* Navbar CSS end*/
-
-
-
-/* all form control CSS start*/
+/* All form control*/
 
 .form-control{
     border-radius: 50px;
 }
 
-/* all form control CSS end*/
-
-
-/*footer css start */
+/*Footer css*/
 
 .footer{
     color: black;
@@ -142,15 +134,12 @@
     border-radius:25px 0px 0px 25px !important;  
 }
 
-
-
-/*services Css start*/
+/*services.php*/
 
 .portfolio{
     padding:6%;
     text-align: center;
 }
-
 
 .heading{
     padding: 1%;
@@ -165,11 +154,9 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
 }
 
-
 .heading img{
     width: 10%;
 }
-
 
 .bio-info{
     padding: 5%;
@@ -183,12 +170,10 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
 }
 
-
 .name{
     font-family: 'VT323', monospace;
     font-weight:600;
 }
-
 
 .bio-image{
     text-align:center;
@@ -200,24 +185,17 @@
 
 }
 
-
 .bio-content p{
     font-weight:600;
     font-size:30px;
 }
-
 
 #myprofile{
     width: 285px;
 
 }
 
-
-/*services Css end*/
-
-
-
-/*------------- Contact Chat Form css start---------------*/
+/*Contact Chat Form*/
 
 .nb-form {
     position: fixed;
@@ -231,12 +209,11 @@
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
 }
 
-
 .nb-form:hover {
     bottom: 0px;
 }
 
-/*-- User Icon --*/
+/*User Icon*/
 
 .nb-form .user-icon {
     position: absolute;
@@ -248,7 +225,7 @@
     border-radius: 100%;
 }
 
-/*-- Title --*/
+/*Title*/
 
 .nb-form .title {
     background: #03a9f4;
@@ -258,7 +235,7 @@
     border-radius: 10px 10px 0 0;
 }
 
-/*-- Text --*/
+/*Text*/
 
 .nb-form p {
     font-size: 13px;
@@ -271,7 +248,7 @@
     margin-left: 7px;
 }
 
-/*-- Form Elements --*/
+/*Form Elements*/
 
 .nb-form form {
     padding: 0 15px 15px 15px;
@@ -322,7 +299,6 @@
     min-height: 110px;
 }
 
-
 .nb-form ::-webkit-input-placeholder {
     color: #ccb0b0;
 }
@@ -363,12 +339,7 @@
     }
 }
 
-
-/*Login modal css start*/
-
-
-/*about css start*/
-
+/*about*/
 
 .qr {
     margin-left: auto;
@@ -379,7 +350,7 @@
     padding-bottom: 40px;
     color: #fff;
     background: transparent;
-    
+
 }
 
 .pricing-tables-jumbotron {
@@ -422,13 +393,13 @@
     background: -webkit-linear-gradient(top, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
-    
+
 }
 
 .option > .option-title > span {
     font-style: italic;
     font-size: 16px;
-    
+
 }
 
 .option > .option-price {
@@ -455,12 +426,12 @@
 .option .item-list {
     list-style: none;
     padding: 0;
-    
+
 }
 
 .option .item-list li:nth-child(even) {
     background: #fdfdfd;
-  
+
 }
 
 .option .item-list > li {
@@ -500,43 +471,48 @@
     transition: all 0.7s ease-in-out;
 }
 
-/*testing*/
+/*body background*/
 
 body{
     height:100vh;
     font-family: 'Roboto Condensed', sans-serif;
-    }
+}
+
 #up{
-     border-bottom:0px solid transparent;
-     box-shadow: 0 0 transparent;
-     background:transparent;
-   }
+    border-bottom:0px solid transparent;
+    box-shadow: 0 0 transparent;
+    background:transparent;
+}
+
 #navbarSupportedContent li {
     margin:0px 10px;
 }
+
 #navbarSupportedContent li a{
     color: black;
 }
+
 #up h2{
-   color:#00c851!important;
-   font-size:1.3rem;
-   cursor: pointer;
-          
+    color:#00c851!important;
+    font-size:1.3rem;
+    cursor: pointer;
+
 }
+
 .wrapper{
-  	/*background:url('https://www.tuexperto.com/wp-content/uploads/2017/10/fondo-de-pantalla-paisaje.jpg');*/
-   background-position:center;
-   background-size:cover;
-   background-repeat:no-repeat;
-   width:100%;
-   height:100vh;
-   position:static;
-   color: black;
-   margin-right: 200px;
-            
-    
+    /*background:url('https://www.tuexperto.com/wp-content/uploads/2017/10/fondo-de-pantalla-paisaje.jpg');*/
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:100%;
+    height:100vh;
+    position:static;
+    color: black;
+    margin-right: 200px;
+
 }
- .overlays{
+
+.overlays{
     position:absolute;
     left: 0;
     top: 0;
@@ -552,16 +528,14 @@ body{
     font-size: 1.5em;
 }
 
-
-
 h1 {
     font-size: 6.0em;
     /*line-height: 1.3em;*/
-    
+
 }
 
 h3{
-  margin-top: 50px;  
+    margin-top: 50px;  
 }
 
 #navbarSupportedContent{
@@ -569,39 +543,36 @@ h3{
     height: 0em;
     position: relative;
     margin: 0;
-    
     position: absolute;
     top: 50%;
     left: 92%;
     margin-right: -50%;
     transform: translate(-73%, -50%) 
 }
+
 #paymentbody{
     background: white !important;
     padding-bottom: 150px;
 }
 
 #limenu{
-  box-shadow: 4px 8px 8px 4px black;  
+    box-shadow: 4px 4px 4px 0px black;  
 }
+
 #closeMenu{
-    font-size:50px;
+    font-size:40px;
 }
+
 #closeMenu:hover{
-    font-size:70px;
+    font-size:50px;
 }
 
 #ulmenu{
     background: #45abe6;
-    box-shadow: 4px 8px 8px 4px black;
-    padding: 0px 10px 0px 10px;
+    box-shadow: 4px 4px 8px 0px black;
+    padding: 0px 10px 30px 10px;
     border-radius: 10px;
 }
-
-
-
-
-
 
 /* sign in & sign up modals*/
 
@@ -612,8 +583,7 @@ h3{
     -webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
     box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25); }
 
-.form-elegant .z-depth-1-half,
-.form-elegant .btn:hover {
+.form-elegant .z-depth-1-half, .form-elegant .btn:hover {
     -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
     box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15); }
 
@@ -626,3 +596,110 @@ h3{
 .form-elegant .modal-body, .form-elegant .modal-footer {
     font-weight: 400; }
 
+
+/*--*/
+.carousel-item{
+    height: 600px !important;
+    margin-top: 0px;
+    position: relative;
+    background: rgba(72,172,232,0.65);
+}
+#carouselExampleIndicators, ol, li{
+    color: black !important;
+}
+.d-md-block{
+    margin-bottom: 0px;
+}
+.carousel-item, h1, h4 , p{
+    color: black !important;
+    font-weight: 400;
+
+}
+
+#jumbotron1{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#67b2ef+0,83c1f3+41 */
+    background: rgb(103,178,239); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(103,178,239,1) 0%, rgba(131,193,243,1) 41%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(103,178,239,1) 0%,rgba(131,193,243,1) 41%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(103,178,239,1) 0%,rgba(131,193,243,1) 41%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67b2ef', endColorstr='#83c1f3',GradientType=1 ); /* IE6-9 */
+    margin-bottom: 80px;
+
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 55px;
+    color: #000 \9;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #000 \9;
+}
+
+
+/*--*/
+#testimonialSection{
+    padding-top:7rem;
+    padding-bottom:7rem; 
+    margin-top: 50px;
+}
+
+#testimonialSection h2{
+    font-family:'Lato','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.testimonialItem{
+    max-width:18rem;
+}
+
+.testimonialItem img{
+    max-width:12rem;
+    box-shadow:0 5px 5px 0 #adb5bd;
+}
+
+.testimonialItem h5,p{
+    font-family:'Lato','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.rounded-circle{
+    border: 3px solid #fff;
+}

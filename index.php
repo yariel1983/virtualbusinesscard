@@ -34,14 +34,14 @@
         <div class="row d-flex flex-rap ">
 
             <!-- First block Card -->
-            <div class="col-md-6 order-sm-0 my-auto p-0">
+            <div class="col-md-6 col-sm-12 order-sm-0 my-auto p-0">
                 <div class="card border-0" >
-                    <img class="card-img-top border-0" src="assets/images/banner11.jpg" alt="Card image cap" height="500px">
+                    <img class="card-img-top border-0" src="assets/images/banner1.jpg" alt="Card image cap" height="500px">
                 </div>
             </div>      
-            <div class="col-md-6 order-sm-1 my-auto p-5">
+            <div class="col-md-6 col-sm-12 order-sm-1 my-auto p-5">
                 <div class="text-center">
-                    <h2 class="headerTitle text-muted">Log into your free account</h2>
+                    <h2 class="headerTitle text-muted">Login into your free account</h2>
                     <p class="load ">Use our business card builder</p>
                 </div>
             </div>
@@ -49,7 +49,7 @@
             <!-- Second block Card-->
             <div class="col-md-6 order-sm-3 my-auto p-0">
                 <div class="card border-0" >
-                    <img class="card-img-top" src="assets/images/banner11111.jpg" alt="Card image cap" height="500px">
+                    <img class="card-img-top" src="assets/images/banner2.jpg" alt="Card image cap" height="500px">
                 </div>
             </div>  
             <div class="col-md-6 order-lg-2 my-auto p-5">
@@ -62,7 +62,7 @@
             <!-- Third block Card-->
             <div class="col-md-6  order-sm-4 my-auto p-0">
                 <div class="card border-0 mb-4" >
-                    <img class="card-img-bottom mb-2" src="assets/images/banner111111.jpg" alt="Card image cap" height="500px">
+                    <img class="card-img-bottom mb-2" src="assets/images/banner3.jpg" alt="Card image cap" height="500px">
                 </div>
             </div>
             <div class="col-md-6  order-sm-5  my-auto my-auto p-5">

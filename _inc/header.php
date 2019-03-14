@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="assets/css/font.googleapis.css">        
         <link rel="stylesheet" href="assets/css/fontawesome/css/all.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+        <link rel="shortcut icon" href="assets/images/yariel.png">
     </head>
     <body>
         <nav class="navbar fixed-top" id="up">
@@ -18,10 +19,8 @@
             <span class="hamb-bottom mt-2 mb-2"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="list-group text-center" id="ulmenu">
-                <li class="list-group-item text-dark border-0" id="limenu">
-                <span class="list-group-item border-0 fa-3x"></span><h3>Menu</h3>                  
-                </li>
+            <ul class="list-group text-center" id="ulmenu"><h3>Menu</h3> 
+               
                 <li class="list-group-item border-0" id="limenu">
                 <big><a class="list-group-item border-0 fa-2x" href="index.php"><span><i class="fas fa-home mr-1" href="index.php" id="homeicon"></i></span><h4>Home</h4>
                        
