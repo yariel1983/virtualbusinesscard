@@ -3,7 +3,7 @@
 <div class="container-fluid" id="servdiv">
     <div class="container portfolio mb-5">&nbsp;
 
-        <div class="bio-info">
+        <div class="bio-info bg-light">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
                     <div class="row">
@@ -68,8 +68,8 @@
             </div>            
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 mt-5">
-            <a class="btn-outline-light text-dark" href="#" id="resetbtn"> Preview <i class="fas fa-eye"></i></a>
-            <a class="btn-outline-light text-dark" href="checkout.php" id="savebtn"> E_Print <i class="fas fa-shopping-cart"></i></a>
+            <a class="btn-outline-light text-dark bg-light" href="#" id="resetbtn"> Preview <i class="fas fa-eye"></i></a>
+            <a class="btn-outline-light text-dark bg-light" href="checkout.php" id="savebtn"> E_Print <i class="fas fa-shopping-cart"></i></a>
         </div>
 
     </div>   
