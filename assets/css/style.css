@@ -146,7 +146,7 @@
     text-align: center;
     /*box-shadow: 0px 0px 4px 0px #545b62;*/
     margin-bottom: 50px;     
-    
+
 }
 
 .heading img{
@@ -155,11 +155,11 @@
 
 .bio-info{
     padding: 5%;
-   box-shadow: -3px 2px 62px 2px #545b62;
+    box-shadow: -3px 2px 62px 2px #545b62;
     background: none;
     border: 1px solid #fff !important;
     border-radius: 5px !important;
-   
+
 }
 
 .name{
@@ -379,12 +379,7 @@
     font-size: 32px;
     text-transform: uppercase;
     margin: 0;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+51,afc7e8+62,bad0ef+75,99b5db+88,799bc8+100;Grey+Blue+Gloss+%231 */
-    background: #d2dfed; /* Old browsers */
-    background: -moz-linear-gradient(top, #d2dfed 0%, #c8d7eb 26%, #bed0ea 51%, #a6c0e3 51%, #afc7e8 62%, #bad0ef 75%, #99b5db 88%, #799bc8 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
+   background-image: linear-gradient(to top, #0091fb, #72a2fc, #a0b5fc, #c3c9fc, #e0dffd, #e0dffd, #e0dffd, #e0dffd, #c3c9fc, #a0b5fc, #72a2fc, #0091fb);
 
 }
 
@@ -441,17 +436,12 @@
 
 .option .btn-success {
     color: black;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+51,afc7e8+62,bad0ef+75,99b5db+88,799bc8+100;Grey+Blue+Gloss+%231 */
-    background: #d2dfed; /* Old browsers */
-    background: -moz-linear-gradient(top, #d2dfed 0%, #c8d7eb 26%, #bed0ea 51%, #a6c0e3 51%, #afc7e8 62%, #bad0ef 75%, #99b5db 88%, #799bc8 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
+    background-image: linear-gradient(to top, #0091fb, #72a2fc, #a0b5fc, #c3c9fc, #e0dffd, #e0dffd, #e0dffd, #e0dffd, #c3c9fc, #a0b5fc, #72a2fc, #0091fb);
     border-radius: 0px 0px 25px 25px;
 }
 
 .option .btn-success:hover {
-    background: #03a9f4;
+    background-image: linear-gradient(to top, #ffffff, #e8e7fe, #cdd0fd, #acbbfc, #82a8fc, #82a8fc, #82a8fc, #82a8fc, #acbbfc, #cdd0fd, #e8e7fe, #ffffff);
 }
 
 .option .hided-icon {
@@ -594,7 +584,7 @@ h3{
     height: 600px !important;
     margin-top: 0px;
     position: relative;
-    background: rgba(72,172,232,0.65);
+    background-image: linear-gradient(to right, #9997dc, #5b96cf, #228fb3, #14858f, #31786b);
 }
 #carouselExampleIndicators, ol, li{
     color: black !important;
@@ -609,12 +599,7 @@ h3{
 }
 
 #jumbotron1{
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#67b2ef+0,83c1f3+41 */
-    background: rgb(103,178,239); /* Old browsers */
-    background: -moz-linear-gradient(left, rgba(103,178,239,1) 0%, rgba(131,193,243,1) 41%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(103,178,239,1) 0%,rgba(131,193,243,1) 41%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(103,178,239,1) 0%,rgba(131,193,243,1) 41%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67b2ef', endColorstr='#83c1f3',GradientType=1 ); /* IE6-9 */
+    background-image: linear-gradient(to bottom, #e70909, #c70058, #852e76, #433b68, #2b323c);
     margin-bottom: 80px;
 
 }
@@ -709,16 +694,17 @@ h3{
     padding: 10px 50px 10px 50px;
 }
 
- #servdiv {
-        background: #aaafb2 !important;
-    }
+#servdiv {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    background: #4da6ea;
+    background-image: linear-gradient(to left top, #f06f6f, #eb78a2, #d18bcb, #ac9fe2, #8bb0e6) !important;
+}
 #choosepic{
     background-color: transparent;
 }
 .form-control-file, .form-control-range {
     display: block;
     width: 158%;
-    
-    
-   
+
     
