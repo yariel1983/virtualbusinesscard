@@ -144,14 +144,9 @@
 .heading{
     padding: 1%;
     text-align: center;
-    box-shadow: 0px 0px 4px 0px #545b62;
+    /*box-shadow: 0px 0px 4px 0px #545b62;*/
     margin-bottom: 50px;     
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+51,afc7e8+62,bad0ef+75,99b5db+88,799bc8+100;Grey+Blue+Gloss+%231 */
-    background: #d2dfed; /* Old browsers */
-    background: -moz-linear-gradient(top, #d2dfed 0%, #c8d7eb 26%, #bed0ea 51%, #a6c0e3 51%, #afc7e8 62%, #bad0ef 75%, #99b5db 88%, #799bc8 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
+    
 }
 
 .heading img{
@@ -160,14 +155,11 @@
 
 .bio-info{
     padding: 5%;
-    box-shadow: 10px 10px 20px #000000;
-    text-shadow: 10px 10px 20px #000000;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+51,afc7e8+62,bad0ef+75,99b5db+88,799bc8+100;Grey+Blue+Gloss+%231 */
-    background: #d2dfed; /* Old browsers */
-    background: -moz-linear-gradient(top, #d2dfed 0%, #c8d7eb 26%, #bed0ea 51%, #a6c0e3 51%, #afc7e8 62%, #bad0ef 75%, #99b5db 88%, #799bc8 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
+   box-shadow: -3px 2px 62px 2px #545b62;
+    background: none;
+    border: 1px solid #fff !important;
+    border-radius: 5px !important;
+   
 }
 
 .name{
@@ -703,3 +695,30 @@ h3{
 .rounded-circle{
     border: 3px solid #fff;
 }
+
+
+#savebtn, #resetbtn{
+    border-radius: 50px !important;
+    padding: 10px 50px 10px 50px;
+    border-color: #e1e5e6 !important;
+    border: 1px #e1e5e6 solid;
+    box-shadow: -3px 2px 62px 2px #545b62;
+}
+#choosepic{
+    border-radius: 50px !important;
+    padding: 10px 50px 10px 50px;
+}
+
+ #servdiv {
+        background: #aaafb2 !important;
+    }
+#choosepic{
+    background-color: transparent;
+}
+.form-control-file, .form-control-range {
+    display: block;
+    width: 158%;
+    
+    
+   
+    
