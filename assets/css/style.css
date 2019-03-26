@@ -58,8 +58,10 @@
 
 /* All form control*/
 
-.form-control{
-    border-radius: 50px;
+.user-class, .password-class{
+    border-radius: 5px  !important;
+    
+    
 }
 
 /*Footer css*/
@@ -579,7 +581,7 @@ h3{
     font-weight: 400; }
 
 
-/*--*/
+/*carousel*/
 .carousel-item{
     height: 600px !important;
     margin-top: 0px;

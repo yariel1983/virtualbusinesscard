@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" id="carouselregister">
             
             <div class="carousel-caption d-none d-md-block text-white">
                 <h1>Please Register<br></h1>
