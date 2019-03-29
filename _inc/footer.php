@@ -15,7 +15,7 @@
             <div class="col-md-6">
                 <ul class="list">
                     <li><a class="text-dark" href="about.php">About Us</a></li>
-                    <li><a class="text-dark" href="contact.php">Contact</a></li>
+                    <li><a class="text-dark" href="pricing.php">Pricing</a></li>
                     <li><a class="text-dark" href="#">Terms & Condition</a></li>
                     <li><a class="text-dark" href="#">Privacy Policy</a></li>
                 </ul>
@@ -24,10 +24,10 @@
         <div class="col-md-2 footer-social animated fadeInDown">
             <h4>Follow Us</h4>
             <ul>
-                <li><a href="#"><span class="fab fa-facebook fa-2x text-primary"></span></a></li>
-                <li><a href="#"><span class="fab fa-instagram fa-2x text-danger"></span></a></li>
-                <li><a href="#"><span class="fab fa-twitter fa-2x text-primary"></span></a></li>
-                <li><a href="#"><span class="fab fa-linkedin fa-2x text-primary"></span></a></li>
+                <li><a href="#"><span class="fab fa-facebook fa-2x text-white"></span></a></li>
+                <li><a href="#"><span class="fab fa-instagram fa-2x text-white"></span></a></li>
+                <li><a href="#"><span class="fab fa-twitter fa-2x text-white"></span></a></li>
+                <li><a href="#"><span class="fab fa-linkedin fa-2x text-white"></span></a></li>
             </ul>
         </div>
         <div class="col-md-3 footer-ns animated fadeInRight">

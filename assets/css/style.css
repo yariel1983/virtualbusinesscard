@@ -67,12 +67,12 @@
 /*Footer css*/
 
 .footer{
-    color: black;
+    color: white !important;
     border-top: 1px solid #000000;
 }
 
 .footer-bs {
-    background: #f5f8f9;
+    background: #533e90c4;
     padding: 60px 40px;
     color: rgba(255,255,255,1.00);
     border-bottom-right-radius: 6px;
@@ -222,7 +222,7 @@
 /*Title*/
 
 .nb-form .title {
-    background: #03a9f4;
+    background: #533e90;
     font-size: 16px !important;
     padding: 20px 18px !important;
     color: black !important;
@@ -310,7 +310,7 @@
 }
 
 .nb-form input[type='submit'] {
-    background: #03a9f4;
+    background: #533e90;
 }
 
 @media screen and (max-width: 676px) {
@@ -510,6 +510,7 @@ body{
     border-radius: 50px !important;
     padding: 5px 80px 5px 80px;
     font-size: 1.5em;
+    background: #533e90;
 }
 
 h1 {
@@ -559,7 +560,6 @@ h3{
 }
 
 /* sign in & sign up modals*/
-
 .form-elegant .font-small {
     font-size: 0.8rem; }
 
@@ -575,18 +575,23 @@ h3{
     border-bottom: none; }
 
 .modal-dialog .form-elegant .btn .fab {
-    color: #2196f3!important; }
+    color: #2196f3 !important; }
 
 .form-elegant .modal-body, .form-elegant .modal-footer {
     font-weight: 400; }
+#Submit-btn{
+    background: #533e90;
+    color: white;
+}
 
 
 /*carousel*/
 .carousel-item{
-    height: 600px !important;
+    height: 700px !important;
     margin-top: 0px;
     position: relative;
-    background-image: linear-gradient(to right, #9997dc, #5b96cf, #228fb3, #14858f, #31786b);
+    
+    
 }
 #carouselExampleIndicators, ol, li{
     color: black !important;
@@ -600,11 +605,6 @@ h3{
 
 }
 
-#jumbotron1{
-    background-image: linear-gradient(to bottom, #e70909, #c70058, #852e76, #433b68, #2b323c);
-    margin-bottom: 80px;
-
-}
 
 .carousel-indicators {
     position: absolute;
@@ -655,7 +655,7 @@ h3{
 }
 
 
-/*--*/
+/*-test-*/
 #testimonialSection{
     padding-top:7rem;
     padding-bottom:7rem; 
@@ -708,5 +708,24 @@ h3{
 .form-control-file, .form-control-range {
     display: block;
     width: 158%;
+}
 
+
+#landingbanner{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+    
     

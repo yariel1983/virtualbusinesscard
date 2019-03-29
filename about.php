@@ -1,82 +1,21 @@
 <?php include('_inc/header.php'); ?>
 
 <!-- Container (About Section) -->
-<div id="carouselExampleIndicators" class="carousel slide text-center" data-ride="carousel">
-
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner">
         <div class="carousel-item active">
-            <div class="carousel-caption d-none d-md-block">
-                <section id="testimonialSection" class="text-center">
-                    <div class="container">
-                        <h2 class="mb-5 font-weight-bold" >Meet the team</h2>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="testimonialItem mx-auto mb-5 mb-lg-0">
-                                    <img class="img-fluid rounded-circle mb-3" src="assets/images/yariel.png" alt>
-                                    <h5 class="font-weight-bold text-white">Yariel Dominguez UI Developer</h5>
-                                    <p class="font-weight-light mb-0 text-white">"This is fantastic! Thanks so much guys!"</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="testimonialItem mx-auto mt-5 mb-lg-0">
-                                    <span><i class="fas fa-code fa-9x mb-4 text-white"></i></span>
-
-
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="testimonialItem mx-auto mb-5 mb-lg-0">
-                                    <img class="img-fluid rounded-circle mb-3" src="assets/images/paul.jpeg" alt>
-                                    <h5 class="font-weight-bold">Paul Ferra Software Engineer</h5>
-                                    <p class="font-weight-light mb-0 text-white">"Thanks so much for making these free resources available to us!"</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-            </div>
+            <img src="assets/images/carousel1.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <div class="carousel-caption d-none d-md-block">
-                <div class="jumbotron jumbotron-fluid" id="jumbotron1">
-                    <div class="container">
-                        <!-- Container (Services Section) -->
-                        <div id="services" class="container-fluid text-center mt-5">
-
-                            <div class="row slideanim">
-                                <div class="col-sm-4">
-                                    <span><i class="fas fa-leaf fa-4x mb-4 text-success"></i></span>
-                                    <h4>GREEN</h4>
-                                    <p>Go Green With Virtual Business cards..</p>
-                                </div>
-                                <div class="col-sm-4">
-                                    <span><i class="fas fa-certificate fa-4x mb-4 text-warning"></i></span>
-                                    <h4>CERTIFIED</h4>
-                                    <p>Full Stack Developers..</p>
-                                </div>
-                                <div class="col-sm-4">
-                                    <span><i class="fas fa-heart fa-4x mb-4 text-danger"></i></span>
-                                    <h4>LOVE</h4>
-                                    <p>Made With Love..</p>
-                                </div>
-                            </div>
-                        </div>   
-                    </div>
-                </div>
-            </div>
+            <img src="assets/images/carousel2.jpg" class="d-block w-100" alt="...">
         </div>
-        <div class="carousel-item" id="carouselregister">
-            
-            <div class="carousel-caption d-none d-md-block text-white">
-                <h1>Please Register<br></h1>
-                <button class="btn btn-success btn-outline mt-5 mb-5" data-toggle="modal" data-target="#register-modal" id="registerbtn"> Register</button>
-            </div>
+        <div class="carousel-item">
+            <img src="assets/images/carousel3.jpg" class="d-block w-100" alt="...">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -90,87 +29,131 @@
 </div>
 
 
-<div class="container-fluid mt-0">
-    <div class="container prices mt-5">
-        <div class="row">
-            <div class="col-sm-2 col-md-4 col-lg-4">
-                <div class="option">
-                    <div class="option-title">
-                        <h3>Standard</h3>
-                        <span>Affordable</span>
-                    </div>
-                    <div class="option-price">
-                        <span class="price">$10</span>
-                        <span class="period">50 Virtual Cards</span>
-                    </div>
-                    <div class="option-list">
-                        <ul class="item-list">
-                            <li><strong>Free</strong> Account</li>
-                            <li><strong>50 Free</strong> Welcome Virtual Cards</li>
-                            <li><strong>1 Month</strong> Application Access</li>
-                            <li><strong>Expires</strong> in 1 Month</li>
-                            <li><strong>Total</strong><div class="qr" id="order1"> 100 Virtual Cards a Month</div></li>
-                        </ul>
-                        <a type="button" href="checkout.php" class="btn btn-success big"><i class="fa fa-hand-o-right hided-icon big"></i> Buy Now</a>
-                    </div>
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle" src="assets/images/yariel.png" alt="">
                 </div>
             </div>
-            <div class="col-sm-2 col-md-4 col-lg-4">
-                <div class="option">
-                    <div class="option-title">
-                        <h3>Advance</h3>
-                        <span>most valued</span>
-                    </div>
-
-                    <div class="option-price">
-                        <span class="price">$60</span>
-                        <span class="period">6 months</span>
-                    </div>
-
-                    <div class="option-list">
-                        <ul class="item-list">
-                            <li><strong>Free</strong> Account</li>
-                            <li><strong>Free</strong> Renovation</li>
-                            <li><strong>6 Months</strong> Application Access</li>
-                            <li><strong>Expires</strong> in 6 Months</li>
-                            <li><strong>Total</strong><div class="qr" id="order1"> 200 Virtual Cards a Month</div></li>
-                        </ul>
-                        <a type="button" href="checkout.php" class="btn btn-success big"><i class="fa fa-hand-o-right hided-icon big"></i> Buy Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2 col-md-4 col-lg-4">
-                <div class="option">
-                    <div class="option-title">
-                        <h3>Unlimited</h3>
-                        <span>extended version</span>
-                    </div>
-
-                    <div class="option-price">
-                        <span class="price">$99</span>
-                        <span class="period">Full 1 Year</span>
-                    </div>
-
-                    <div class="option-list">
-                        <ul class="item-list">
-                            <li><strong>Free</strong> Account</li>
-                            <li><strong>Free</strong> Renovation</li>
-                            <li><strong>1 Year</strong> Application Access</li>
-                            <li><strong>Expires</strong> in 1 Year</li>
-                            <li><strong>Total</strong><div class="qr" id="order1"> Unlimited for 1 Year</div></li>
-                        </ul>
-                        <a type="button" href="checkout.php" class="btn btn-success big" ><i class="fa fa-hand-o-right hided-icon big"></i> Buy Now</a>
-                    </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">For those about to rock...</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
                 </div>
             </div>
         </div>
     </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle" src="assets/images/paul.jpeg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <h2 class="display-4">We salute you!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
+<section id="home-gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase"></h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2009-2011</h4>
+                                <h4 class="subheading">Our Humble Beginnings</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>March 2011</h4>
+                                <h4 class="subheading">An Agency is Born</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>December 2012</h4>
+                                <h4 class="subheading">Transition to Full Service</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>July 2014</h4>
+                                <h4 class="subheading">Phase Two Expansion</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>Be Part
+                                <br>Of Our
+                                <br>Story!</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
 
-
-
+<!-- Map -->
+<section id="contact" class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.1728885107527!2d-80.20637778454386!3d25.76485241475718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b68ea0a24d4d%3A0xf1379e94c47ff26d!2s900+SW+6th+Ave%2C+Miami%2C+FL+33130!5e0!3m2!1sen!2sus!4v1553734413658" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <br />
+    <small>
+        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+    </small>
 
     <?php include('_inc/footer.php'); ?>

@@ -5,42 +5,49 @@
         <!-- CSS -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <link rel="stylesheet" href="assets/css/style1.css" type="text/css" />
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro:400,400i,600,700" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/font.googleapis.css">        
         <link rel="stylesheet" href="assets/css/fontawesome/css/all.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
         <link rel="shortcut icon" href="assets/images/yariel.png">
     </head>
-    <body>
-        <nav class="navbar fixed-top" id="up">
-            <a class="navbar-brand text-black d-flex" href="index.php"><span><small><i class="icon-layers fa-2x mr-2 text-dark" href="index.php"></i></span>Virtual Business Card</a></small>
-        <button class="navbar-toggler" id="navbutton" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="hamb-top mb-2"></span>
-            <span class="hamb-middle mt-2 mb-2"></span>
-            <span class="hamb-bottom mt-2 mb-2"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="list-group text-center" id="ulmenu"><h3>Menu</h3> 
-               
-                <li class="list-group-item border-0" id="limenu">
-                <big><a class="list-group-item border-0 fa-2x" href="index.php"><span><i class="fas fa-home mr-1" href="index.php" id="homeicon"></i></span><h4>Home</h4>
-                       
-                    </a></big>
-                </li>
-                <li class="list-group-item border-0" id="limenu">
-                <big><a class="list-group-item border-0 fa-2x" href="about.php"><span><i class="fas fa-award mr-1" href="about.php" id="abouticon"></i></span><h4>About</h4>
-                    </a></big>
-                </li>
-                <li class="list-group-item border-0 fa-2x" id="limenu">
-                <big><a class="list-group-item border-0" href="services.php"><span><i class="fas fa-palette mr-1 ml-1" href="services.php" id="designicon"></i></span><h4>Desings</h4>
-                    </a></big>
-                </li>
-                
-                <li class="list-group-item border-0" id="limenu">
-                    <span><i class="fas fa-times fa-2x" id="closeMenu"></i></span></a>
-            </ul>
+    <body id="page-top">
 
-        </div>
-    </nav>
-</body>
+        <!-- Navigation -->
+        <a class="menu-toggle rounded" href="#">
+            <i class="fas fa-bars fa-4x"></i>
+        </a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                <a class="js-scroll-trigger">Menu</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="index.php">Home</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" data-toggle="modal" data-target="#login-modal">Login</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" data-toggle="modal" data-target="#register-modal">Register</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="services.php">Services</a>
+                </li>               
+                
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="pricing.php">Pricing</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#">Help & Support</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="about.php">About</a>
+                </li>
+            </ul>
+        </nav>
+    </body>
 </html>
 <!--Navigation-->   

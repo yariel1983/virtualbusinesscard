@@ -1,7 +1,7 @@
 <?php include('_inc/header.php'); ?>
 <div class="container-fluid">&nbsp;
 <div class="container prices mt-5">
-    <div class="jumbotron pricing-tables-jumbotron">
+    <div class="pricing-tables">
         <h2></h2>
     </div>
     <div class="row">
