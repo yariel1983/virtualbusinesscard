@@ -14,8 +14,8 @@ body {
 }
 
 .content-section {
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 
 .content-section-heading h2 {
@@ -500,8 +500,8 @@ h6 {
     padding-bottom: 200px;
 }
 
-.bg-light {
-    background-color: #533e90c4 !important;
+#homejumb {
+    background-color: #fff!important;
 }
 
 .btn btn-info {

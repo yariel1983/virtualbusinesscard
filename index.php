@@ -11,7 +11,7 @@
     <div class="overlay"></div>
 </header>
 
-<section class="content-section bg-light" id="about">
+<section class="content-section" id="homejumb">
     <div class="container text-center">
         <div class="row">
             <div class="col-lg-10 mx-auto">
