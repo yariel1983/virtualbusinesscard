@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
         <link rel="stylesheet" href="assets/css/style1.css" type="text/css" />
-        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        
         <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/font.googleapis.css">        
