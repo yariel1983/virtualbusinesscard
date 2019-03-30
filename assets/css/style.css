@@ -624,9 +624,9 @@ h3{
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000 \9;
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #fff;
+    background-color: black;
+    background-color: black;
+    border: 1px solid black;
     border-radius: 10px;
 }
 
@@ -645,13 +645,13 @@ h3{
 {
     content: '>';
     font-size: 55px;
-    color: #000 \9;
+    color: black;
 }
 
 .carousel-control-prev-icon:after {
     content: '<';
     font-size: 55px;
-    color: #000 \9;
+    color: black;
 }
 
 

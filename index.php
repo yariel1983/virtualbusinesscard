@@ -2,8 +2,8 @@
 <!-- Header -->
 <header class="masthead d-flex" style="background-image:  url('assets/images/landinpage1.jpg')" id="landingpage1">
     <div class="container text-center my-auto">
-        <h1 class="mb-1">Do you want to make your own 
-            <i class="fab fa-edge"></i>-Business Card?</h1>
+        <h1 class="mb-1" id="homepresentation">Do you want to design your own 
+            <i class="fab fa-edge" id="elogo"></i>-Business Card?</h1>
         <button type="button" name="login" id="loginbtn" class="btn btn-info btn-outline  mt-5 mb-5" data-toggle="modal" data-target="#login-modal"> Login</button>
         <button class="btn btn-info btn-outline mt-5 mb-5" data-toggle="modal" data-target="#register-modal" id="registerbtn"> Register</button>
 
@@ -13,12 +13,14 @@
 
 <section class="content-section" id="homejumb">
     <div class="container text-center">
+        <i class="fas fa-recycle fa-8x mb-5"></i>
         <div class="row">
             <div class="col-lg-10 mx-auto">
-                <h2>Are you tired ordering Business Cards ???</h2>
-                <p class="lead mb-5">This is the next Generation Industry. 
+                <h2 class="big-banner">Why ordering Business Cards</h2>
+                <a class="btn btn-info btn-outline btn-xl js-scroll-trigger mb-5 mt-5" id="bannerbtn" data-toggle="modal" data-target="#register-modal">Find out More</a>
+                <p class="lead mb-5" id="bannerparragraph">This is the next Generation Industry. 
                     <a href="#"></a></p>
-                <a class="btn btn-info btn-outline btn-xl js-scroll-trigger" id="loginbtn" href="#services">Find out More</a>
+                
             </div>
         </div>
     </div>
@@ -37,21 +39,21 @@
         <div class="carousel-item active">
             <img src="assets/images/carousel1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h1 class="bg-light">Welcome to the next Generation</h1>
+                <h1 class="carouselbg my-auto">Welcome to the next Generation</h1>
                 
             </div>
         </div>
         <div class="carousel-item">
             <img src="assets/images/carousel2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h1 class="bg-light">No more Waiting</h1>
+                <h1 class="carouselbg">No more Waiting</h1>
                 
             </div>
         </div>
         <div class="carousel-item">
             <img src="assets/images/carousel3.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h1 class="bg-light">Grow your Business with one click</h1>
+                <h1 class="carouselbg">Grow your Business with one click</h1>
                 
             </div>
         </div>

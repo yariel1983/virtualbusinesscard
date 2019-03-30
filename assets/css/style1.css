@@ -5,10 +5,13 @@ html {
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Raleway', sans-serif;
 
+}
+#homepresentation{
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: .3rem;
+}
 .btn-xl {
     padding: 1.25rem 2.5rem;
 }
@@ -164,7 +167,7 @@ h6 {
 
 .sidebar-nav > .sidebar-brand a {
     color: #fff;
-    
+
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -181,6 +184,8 @@ h6 {
 
 .menu-toggle {
     position: fixed;
+    padding-left: 5px;
+    padding-right: 5px;
     right: 15px;
     top: 15px;
     width: 72px;
@@ -201,7 +206,7 @@ h6 {
 }
 
 .menu-toggle:hover {
-   background-image: linear-gradient(to bottom, #533e90, #5553a2, #5767b2, #5d7bc1, #658ece, #658ece, #658ece, #658ece, #5d7bc1, #5767b2, #5553a2, #533e90);
+    background-image: linear-gradient(to bottom, #533e90, #5553a2, #5767b2, #5d7bc1, #658ece, #658ece, #658ece, #658ece, #5d7bc1, #5767b2, #5553a2, #533e90);
     transition: all 0.5s ease-in-out;
     pointer-events: auto;
 }
@@ -501,7 +506,7 @@ h6 {
 }
 
 #homejumb {
-    background-color: #fff!important;
+    background-color: #7a678f!important;
 }
 
 .btn btn-info {
@@ -513,76 +518,133 @@ h6 {
 
 
 header.masthead {
-  position: relative;
-  overflow: hidden;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
+    background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 header.masthead .masthead-content {
-  z-index: 1;
-  position: relative;
+    z-index: 1;
+    position: relative;
 }
 
 header.masthead .masthead-content .masthead-heading {
-  font-size: 4rem;
+    font-size: 4rem;
 }
 
 header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 header.masthead .bg-circle {
-  z-index: 0;
-  position: absolute;
-  border-radius: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
+    background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
 }
 
 header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
+    height: 90rem;
+    width: 90rem;
+    bottom: -55rem;
+    left: -55rem;
 }
 
 header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
+    height: 50rem;
+    width: 50rem;
+    top: -25rem;
+    right: -25rem;
 }
 
 header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
+    height: 20rem;
+    width: 20rem;
+    bottom: -10rem;
+    right: 5%;
 }
 
 header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
+    height: 30rem;
+    width: 30rem;
+    top: -5rem;
+    right: 35%;
 }
 
 @media (min-width: 992px) {
-  header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
-  }
-  header.masthead .masthead-content .masthead-heading {
-    font-size: 6rem;
-  }
-  header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
-  }
+    header.masthead {
+        padding-top: calc(10rem + 55px);
+        padding-bottom: 10rem;
+    }
+    header.masthead .masthead-content .masthead-heading {
+        font-size: 6rem;
+    }
+    header.masthead .masthead-content .masthead-subheading {
+        font-size: 4rem;
+    }
+}
+
+
+#elogo, .fa-recycle{
+    color: #533e90 !important;
+}
+
+.big-banner{
+    font-size: 3.5rem;
+    letter-spacing: .3rem;
+}
+#bannerbtn{
+    padding: 25px 100px 25px 100px;
+    border-radius: 50px !important;
+
+    background: #533e90;
+    text-transform: uppercase;
+
+
+    letter-spacing: .1rem;
+}
+
+.fa-recycle{
+    color: #3e9042 !important;
+    margin-bottom: 25px;
+
+}
+
+#bannerparragraph{
+    font-size: 2.25rem;
+}
+.carouselbg{
+    margin: auto;
+    
+    
+    line-height: 2em;
+    height: 5em;
+    display: table;
+    vertical-align: middle;
+       
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 80px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+#about-gallery{
+    margin-bottom: 200px;
+    margin-top: 150px;
 }
