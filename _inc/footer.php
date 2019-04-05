@@ -6,11 +6,9 @@
             <span><small><i class="fas fa-recycle fa-2x mr-2 text-dark" href="index.php"></i></span>Virtual Business Card</a></small>
             <p class="text-dark">© 2019 Yariel Dominguez UI, All rights reserved</p>
         </div>
-
         <div class="col-md-4 footer-nav animated fadeInUp">
             <h4>Info —</h4>
             <div class="col-md-6">
-
             </div>
             <div class="col-md-6">
                 <ul class="list">
@@ -37,7 +35,7 @@
                 <span class="input-group-btn">
                     <button class="btn btn-light ml-0 border-1" type="button" id="footerbtn"><i class="fas fa-search"></i></span></button>
                 </span>
-            </div><!-- /input-group -->
+            </div>
             </p>
         </div>
     </div>
@@ -48,7 +46,6 @@
                 <h4 class="title">Contact us</h4>
                 <img src="assets/images/paul.jpeg" alt="" class="user-icon"><img src="assets/images/yariel.png" alt="" class="user-icon mr-5">
                 <p class="message">Feel free to contact us</p>
-
                 <form>
                     <input type="text" name="cpname" placeholder="Name:" required>
                     <input type="email" name="cpemail" placeholder="Email:" required>
@@ -59,10 +56,7 @@
             </div>
         </div>
     </div>
-
-
 </footer>
-
 
 <!-- Jquery -->
 
@@ -71,11 +65,4 @@
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/myscripts.js"></script>
 <script src="assets/js/jquery.validate.min.js"></script>
-
-
-
-
-<!--<script type="text/javascript">window.onload = date_time('date_time');</script>-->
-</body>
-</html>
 

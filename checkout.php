@@ -1,10 +1,12 @@
-
+<!-- (Header) -->
 <?php include('_inc/header.php'); ?>
+
+
+<!-- Container (Checkout) -->
 <div class="container-fluid" id="paymentbody">&nbsp;
     <div class="container py-5">
         <div class="row">
-            
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4 mx-auto">
+            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 mx-auto">
                 <div id="pay-invoice" class="card">
                     <div class="card-body">
                         <div class="card-title">
@@ -13,8 +15,8 @@
                         <hr>
                         <form action="/echo" method="post" novalidate="novalidate" class="needs-validation">
                             <div class="display-td" >                            
-                                <img class="img-responsive ml-5" src="assets/images/payment.png">
-                        </div>
+                                <img class="img-responsive ml-5" src="assets/images/payment.png"/>
+                            </div>
                             <div class="form-group">
                                 <label for="cc-payment" class="control-label mb-1">Payment amount</label>
                                 <input id="cc-payment" name="cc-payment" type="text" class="form-control" aria-required="true" aria-invalid="false" required value="$ 99.00">
@@ -72,6 +74,8 @@
         </div>
     </div>
 </div>
-<?php include('_inc/footer.php'); ?>
+
+<!-- (Footer) -->
+<?php include('_inc/footer.php'); 
 
 

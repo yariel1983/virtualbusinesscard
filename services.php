@@ -1,8 +1,9 @@
+<!-- (Header) -->
 <?php include('_inc/header.php'); ?>
-<!--Page Content-->
+
+<!-- Container (Business Card Builder) -->
 <div class="container-fluid" id="servdiv">
     <div class="container portfolio mb-5">&nbsp;
-
         <div class="bio-info bg-light">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
@@ -10,7 +11,6 @@
                         <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
                             <div class="bio-image">
                                 <img src="http://placehold.it/350x400" class="img-responsive" alt="a" id="servicesimg"/>
-
                             </div>
                         </div>
                     </div>	
@@ -40,10 +40,8 @@
                                 <div class="col-sm-2 col-md-3 col-lg-4 col-xs-2 mt-2">
                                     <input type="file" class="form-control-file" id="choosepic">
                                 </div>
-
                             </div>
                         </form>
-
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-sm-4">
@@ -71,26 +69,7 @@
             <button class="btn-outline-light text-dark bg-light" type="submit" href="#" id="resetbtn" onclick="myFunction()"> Preview <i class="fas fa-eye"></i></button>
             <a class="btn-outline-light text-dark bg-light" href="checkout.php" id="savebtn"> E_Print <i class="fas fa-shopping-cart"></i></a>
         </div>
-
-    </div>   
-
-
-
+    </div>
+    
+    <!-- (Footer) -->
     <?php include('_inc/footer.php'); ?>
-
-
-
-
-    <!--buttons
-                            
-                        <input type="file" class="form-control-file" id="choosepic">
-                  
-                    <button class="btn btn-outline-dark" id="resetbtn"> Preview</button>
-               
-
-                
-                    <button class="btn btn-outline-dark" id="resetbtn"> Reset</button>
-                
-
-               
-                    <button class="btn btn-dark btn-outline" herf="payment.php" id="savebtn"> Save</button>-->
