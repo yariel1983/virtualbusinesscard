@@ -4,7 +4,7 @@
 <?php include('login_modal.php'); ?>
 <!-- Import (Register-Modal) -->
 <?php include('register_modal.php'); ?>
-
+<link rel="shortcut icon" href="assets/images/yariel.png">
 <!-- Container (landing-page Background) -->
 <header class="masthead d-flex" style="background-image:  url('assets/images/landinpage1.jpg')" id="landingpage1">
     <div class="container text-center my-auto">
