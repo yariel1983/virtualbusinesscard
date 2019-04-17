@@ -2,6 +2,7 @@
 <html>
 
     <head>
+        <meta charset="utf-8">
         <title>Virtual Business Card</title>
         <!-- CSS -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -13,7 +14,6 @@
         <link rel="stylesheet" href="assets/css/fontawesome/css/all.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
         <link rel="shortcut icon" href="assets/images/yariel.png">
-        <meta charset="utf-8">
     </head>
 
     <body id="page-top">
