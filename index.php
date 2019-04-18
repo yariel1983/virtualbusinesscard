@@ -112,6 +112,8 @@
         </div> 
     </div>
 
-<!-- (Footer) -->    
-    <?php include('_inc/footer.php');
+    <!-- (Footer) -->    
+    <?php
+    include('_inc/footer.php');
 
+    

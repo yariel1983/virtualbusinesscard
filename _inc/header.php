@@ -1,8 +1,8 @@
 <!DOCTYPE  html>
 <html>
-
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>Virtual Business Card</title>
         <!-- CSS -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -15,9 +15,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
         <link rel="shortcut icon" href="assets/images/yariel.png">
     </head>
-
-    <body id="page-top">
-        
+    <body id="page-top">      
         <!-- Navigation -->
         <a class="menu-toggle rounded" href="#">
             <i class="fas fa-bars fa-4x"></i>
@@ -49,8 +47,5 @@
                     <a class="js-scroll-trigger" href="about.php">About</a>
                 </li>
             </ul>
-        </nav>
-        
-    </body>
-</html>
+        </nav>      
 <!--Navigation-->   
